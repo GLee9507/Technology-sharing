@@ -4,9 +4,9 @@
 
 ## MVVM
 
-MVVM（Model-View-ViewModel）设计架构旨在将图形用户界面与业务逻辑的开发分离开来，把业务逻辑代码抽取到ViewModel中，而View层只存在相关代码。核心思想为**数据驱动视图**
+MVVM（Model-View-ViewModel）设计架构旨在将图形用户界面与业务逻辑的开发分离开来，把**业务逻辑**代码抽取到ViewModel中，而View层只存在**UI相关**代码。核心思想为**数据驱动视图**
 
-![](C:\Users\P\Desktop\Technology-sharing\img\mvvm.png)
+![](https://github.com/GLee9507/Technology-sharing/raw/master/img/mvvm.png)
 
 ## LiveData
 
