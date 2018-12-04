@@ -4,9 +4,23 @@
 
 ## MVVM
 
-MVVM（Model-View-ViewModel）设计架构旨在将图形用户界面与业务逻辑的开发分离开来，把**业务逻辑**代码抽取到ViewModel中，而View层只存在**UI相关**代码。核心思想为**数据驱动视图**
+MVVM（Model-View-ViewModel）设计架构旨在将图形用户界面与业务逻辑的开发分离开来，把**业务逻辑**代码抽取到ViewModel中，而View层只存在与**UI相关**代码。核心思想为**数据驱动视图**
 
-![](https://github.com/GLee9507/Technology-sharing/raw/master/img/mvvm.png)
+![](https://github.com/GLee9507/Technology-sharing/raw/master/img/mvvm2.PNG)
+
+- Model
+
+  Model表示应用程序的数据访问层，在Android中可以为本地数据库或远程服务器
+
+- ViewModel
+  
+  ViewModel与Model交互，处理业务逻辑并且提供可观察数据。Android Architecture Components 为我们提供了**ViewModel**实现，和可观察数据的实现——**LiveData**
+
+- View
+  
+  通过订阅ViewModelz中的被观察者更新UI视图
+
+
 
 ## LiveData
 
