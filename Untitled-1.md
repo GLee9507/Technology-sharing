@@ -1,7 +1,17 @@
-# LiveData
+# 标题
+
+本文主要阐述了Architecture Components在MVVM设计架构中的应用
+
+## MVVM
+
+MVVM（Model-View-ViewModel）设计架构旨在将图形用户界面与业务逻辑的开发分离开来，把业务逻辑代码抽取到ViewModel中，而View层只存在相关代码。核心思想为**数据驱动视图**
+
+![](C:\Users\P\Desktop\Technology-sharing\img\mvvm.png)
+
+## LiveData
 
 LiveData是一个具有生命周期感知的可被观察的数据持有类
-## LiveData的优势
+### LiveData的优势
 
 1. **避免内存泄漏**  
     当观察者的生命周期为Destroyed时，LiveData会把观察者的引用移除掉
