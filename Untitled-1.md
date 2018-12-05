@@ -2,23 +2,33 @@
 
 本文主要阐述了Architecture Components在MVVM设计架构中的应用
 
-## MVVM
+## Android MVVM
 
 MVVM（Model-View-ViewModel）设计架构旨在将图形用户界面与业务逻辑的开发分离开来，把**业务逻辑**代码抽取到ViewModel中，而View层只存在与**UI相关**代码。核心思想为**数据驱动视图**
 
 ![](https://github.com/GLee9507/Technology-sharing/raw/master/img/mvvm2.PNG)
 
-- Model
+- **Model**
 
   Model表示应用程序的数据访问层，在Android中可以为本地数据库或远程服务器
 
-- ViewModel
+- **ViewModel**
   
-  ViewModel与Model交互，处理业务逻辑并且提供可观察数据。Android Architecture Components 为我们提供了**ViewModel**实现，和可观察数据的实现——**LiveData**
+  ViewModel，处理业务逻辑并且提供可观察数据。Android Architecture Components 为我们提供了**ViewModel**实现，和可观察数据的实现——**LiveData**  
 
-- View
+  该层的一个重要实现策略是将其与View分离，即ViewModel不应该意识到与之交互的View，官方明确表示ViewModel不可引用任何View或者Activity Context
+
+- **View**
   
-  通过订阅ViewModelz中的被观察者更新UI视图
+  View把UI事件传递到ViewModel，ViewModel做出具体业务逻辑处理并更新数据
+
+  View通过订阅ViewModel中的数据，当数据变更时更新UI
+
+  在Android中View层为Activity或Fragment
+
+
+
+## ViewModel
 
 
 
