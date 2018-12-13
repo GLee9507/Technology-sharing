@@ -270,8 +270,10 @@ public class MutableLiveData<T> extends LiveData<T> {
 ```
 ### MediatorLiveData
 合并多个LiveData至一个LiveData
+
 ![](https://github.com/GLee9507/Technology-sharing/raw/master/img/mediatorlivedata.png)
 
+例
 ```java
 LiveData<String> liveDataA = new MutableLiveData<>();
 LiveData<String> liveDataB = new MutableLiveData<>();
@@ -303,7 +305,7 @@ public TestViewModel() {
 //下载进度LiveData
 MutableLiveData<Integer> progressLiveData = new MutableLiveData<>();
 
-//下载进度文字描述LiveData
+//下载进度的文字描述LiveData
 LiveData<String> stringLiveData =
         Transformations.map(integerLiveData, new Function<Integer, String>() {
             @Override
@@ -339,3 +341,28 @@ public LiveData<UserInfo> userInfoliveData =
         );
 ```
 
+## Lifecycle
+
+在support library 26.1.0版本以后，AppCompatActivity和Fragment已引入Lifecycle
+
+7个事件
+```java
+public enum Event {
+    ON_CREATE,
+    ON_START,
+    ON_RESUME,
+    ON_PAUSE,
+    ON_STOP,
+    ON_DESTROY
+}
+```
+
+```java
+public enum State {
+    DESTROYED,
+    INITIALIZED,
+    CREATED,
+    STARTED,
+    RESUMED
+}
+```

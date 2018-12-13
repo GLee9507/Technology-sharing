@@ -12,6 +12,8 @@ import java.util.concurrent.TimeUnit;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
+import androidx.lifecycle.MutableLiveData;
+import androidx.lifecycle.Observer;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -34,7 +36,13 @@ public class MainActivity extends AppCompatActivity {
                         .commitNow();
             }
         });
+        MutableLiveData<String> stringMutableLiveData = new MutableLiveData<>();
+        stringMutableLiveData.observe(this, new Observer<String>() {
+            @Override
+            public void onChanged(String s) {
 
+            }
+        });
         findViewById(R.id.remove).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
