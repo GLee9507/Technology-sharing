@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\P\Desktop\1127\app\src\main\AndroidManifest.xml:2:1-21:12
-INJECTED from C:\Users\P\Desktop\1127\app\src\main\AndroidManifest.xml:2:1-21:12
-INJECTED from C:\Users\P\Desktop\1127\app\src\main\AndroidManifest.xml:2:1-21:12
-INJECTED from C:\Users\P\Desktop\1127\app\src\main\AndroidManifest.xml:2:1-21:12
+ADDED from C:\Users\P\Desktop\Technology-sharing\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from C:\Users\P\Desktop\Technology-sharing\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from C:\Users\P\Desktop\Technology-sharing\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from C:\Users\P\Desktop\Technology-sharing\app\src\main\AndroidManifest.xml:2:1-21:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-alpha2] C:\Users\P\.gradle\caches\transforms-1\files-1.1\constraintlayout-2.0.0-alpha2.aar\e17e540872706ba4952e1fefddde95e6\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat:1.1.0-alpha01] C:\Users\P\.gradle\caches\transforms-1\files-1.1\appcompat-1.1.0-alpha01.aar\e268904e192416e09228f6c4712cd6e7\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.recyclerview:recyclerview:1.1.0-alpha01] C:\Users\P\.gradle\caches\transforms-1\files-1.1\recyclerview-1.1.0-alpha01.aar\ef8ddd58c92b38fb976de76efe1fc007\AndroidManifest.xml:17:1-22:12
@@ -36,25 +36,25 @@ MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\P\.gradle\caches
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\P\.gradle\caches\transforms-1\files-1.1\documentfile-1.0.0.aar\1c53c6b5deb5a9da49319ff4e30ab914\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\P\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-1.0.0.aar\0ca51aa5ec122b4cfe000c02a4c61bc1\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\P\.gradle\caches\transforms-1\files-1.1\print-1.0.0.aar\6c807e422e6000d88c003514d7b104ae\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\P\Desktop\1127\app\src\main\AndroidManifest.xml:2:1-21:12
-INJECTED from C:\Users\P\Desktop\1127\app\src\main\AndroidManifest.xml:2:1-21:12
-INJECTED from C:\Users\P\Desktop\1127\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from C:\Users\P\Desktop\Technology-sharing\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from C:\Users\P\Desktop\Technology-sharing\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from C:\Users\P\Desktop\Technology-sharing\app\src\main\AndroidManifest.xml:2:1-21:12
 	package
-		ADDED from C:\Users\P\Desktop\1127\app\src\main\AndroidManifest.xml:3:5-42
-		INJECTED from C:\Users\P\Desktop\1127\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\P\Desktop\1127\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\P\Desktop\Technology-sharing\app\src\main\AndroidManifest.xml:3:5-42
+		INJECTED from C:\Users\P\Desktop\Technology-sharing\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\P\Desktop\Technology-sharing\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\P\Desktop\1127\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\P\Desktop\1127\app\src\main\AndroidManifest.xml:2:1-21:12
-		INJECTED from C:\Users\P\Desktop\1127\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\P\Desktop\Technology-sharing\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\P\Desktop\Technology-sharing\app\src\main\AndroidManifest.xml:2:1-21:12
+		INJECTED from C:\Users\P\Desktop\Technology-sharing\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from C:\Users\P\Desktop\1127\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\P\Desktop\1127\app\src\main\AndroidManifest.xml:2:1-21:12
-		INJECTED from C:\Users\P\Desktop\1127\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\P\Desktop\Technology-sharing\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\P\Desktop\Technology-sharing\app\src\main\AndroidManifest.xml:2:1-21:12
+		INJECTED from C:\Users\P\Desktop\Technology-sharing\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\P\Desktop\1127\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\P\Desktop\Technology-sharing\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\Users\P\Desktop\1127\app\src\main\AndroidManifest.xml:5:5-19:19
+ADDED from C:\Users\P\Desktop\Technology-sharing\app\src\main\AndroidManifest.xml:5:5-19:19
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-alpha2] C:\Users\P\.gradle\caches\transforms-1\files-1.1\constraintlayout-2.0.0-alpha2.aar\e17e540872706ba4952e1fefddde95e6\AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-alpha2] C:\Users\P\.gradle\caches\transforms-1\files-1.1\constraintlayout-2.0.0-alpha2.aar\e17e540872706ba4952e1fefddde95e6\AndroidManifest.xml:9:5-20
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] C:\Users\P\.gradle\caches\transforms-1\files-1.1\lifecycle-extensions-2.0.0.aar\4ebf165e3e50106104a469138342dbb9\AndroidManifest.xml:22:5-23:19
@@ -68,35 +68,35 @@ MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\P\.gradle\cach
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.1.0-alpha02] C:\Users\P\.gradle\caches\transforms-1\files-1.1\core-1.1.0-alpha02.aar\83c0720e0ea0eba382f6ec7bdad38496\AndroidManifest.xml:22:18-86
 	android:supportsRtl
-		ADDED from C:\Users\P\Desktop\1127\app\src\main\AndroidManifest.xml:10:9-35
+		ADDED from C:\Users\P\Desktop\Technology-sharing\app\src\main\AndroidManifest.xml:10:9-35
 	android:label
-		ADDED from C:\Users\P\Desktop\1127\app\src\main\AndroidManifest.xml:8:9-41
+		ADDED from C:\Users\P\Desktop\Technology-sharing\app\src\main\AndroidManifest.xml:8:9-41
 	android:roundIcon
-		ADDED from C:\Users\P\Desktop\1127\app\src\main\AndroidManifest.xml:9:9-54
+		ADDED from C:\Users\P\Desktop\Technology-sharing\app\src\main\AndroidManifest.xml:9:9-54
 	android:icon
-		ADDED from C:\Users\P\Desktop\1127\app\src\main\AndroidManifest.xml:7:9-43
+		ADDED from C:\Users\P\Desktop\Technology-sharing\app\src\main\AndroidManifest.xml:7:9-43
 	android:allowBackup
-		ADDED from C:\Users\P\Desktop\1127\app\src\main\AndroidManifest.xml:6:9-35
+		ADDED from C:\Users\P\Desktop\Technology-sharing\app\src\main\AndroidManifest.xml:6:9-35
 	android:theme
-		ADDED from C:\Users\P\Desktop\1127\app\src\main\AndroidManifest.xml:11:9-40
+		ADDED from C:\Users\P\Desktop\Technology-sharing\app\src\main\AndroidManifest.xml:11:9-40
 activity#com.glee.technology_sharing.MainActivity
-ADDED from C:\Users\P\Desktop\1127\app\src\main\AndroidManifest.xml:12:9-18:20
+ADDED from C:\Users\P\Desktop\Technology-sharing\app\src\main\AndroidManifest.xml:12:9-18:20
 	android:name
-		ADDED from C:\Users\P\Desktop\1127\app\src\main\AndroidManifest.xml:12:19-47
+		ADDED from C:\Users\P\Desktop\Technology-sharing\app\src\main\AndroidManifest.xml:12:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\P\Desktop\1127\app\src\main\AndroidManifest.xml:13:13-17:29
+ADDED from C:\Users\P\Desktop\Technology-sharing\app\src\main\AndroidManifest.xml:13:13-17:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\P\Desktop\1127\app\src\main\AndroidManifest.xml:14:17-69
+ADDED from C:\Users\P\Desktop\Technology-sharing\app\src\main\AndroidManifest.xml:14:17-69
 	android:name
-		ADDED from C:\Users\P\Desktop\1127\app\src\main\AndroidManifest.xml:14:25-66
+		ADDED from C:\Users\P\Desktop\Technology-sharing\app\src\main\AndroidManifest.xml:14:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\P\Desktop\1127\app\src\main\AndroidManifest.xml:16:17-77
+ADDED from C:\Users\P\Desktop\Technology-sharing\app\src\main\AndroidManifest.xml:16:17-77
 	android:name
-		ADDED from C:\Users\P\Desktop\1127\app\src\main\AndroidManifest.xml:16:27-74
+		ADDED from C:\Users\P\Desktop\Technology-sharing\app\src\main\AndroidManifest.xml:16:27-74
 uses-sdk
-INJECTED from C:\Users\P\Desktop\1127\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\P\Desktop\1127\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\P\Desktop\1127\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\P\Desktop\Technology-sharing\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\P\Desktop\Technology-sharing\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\P\Desktop\Technology-sharing\app\src\main\AndroidManifest.xml
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-alpha2] C:\Users\P\.gradle\caches\transforms-1\files-1.1\constraintlayout-2.0.0-alpha2.aar\e17e540872706ba4952e1fefddde95e6\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-alpha2] C:\Users\P\.gradle\caches\transforms-1\files-1.1\constraintlayout-2.0.0-alpha2.aar\e17e540872706ba4952e1fefddde95e6\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.appcompat:appcompat:1.1.0-alpha01] C:\Users\P\.gradle\caches\transforms-1\files-1.1\appcompat-1.1.0-alpha01.aar\e268904e192416e09228f6c4712cd6e7\AndroidManifest.xml:20:5-44
@@ -161,16 +161,16 @@ MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\User
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\P\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-1.0.0.aar\0ca51aa5ec122b4cfe000c02a4c61bc1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.print:print:1.0.0] C:\Users\P\.gradle\caches\transforms-1\files-1.1\print-1.0.0.aar\6c807e422e6000d88c003514d7b104ae\AndroidManifest.xml:20:5-44
 MERGED from [androidx.print:print:1.0.0] C:\Users\P\.gradle\caches\transforms-1\files-1.1\print-1.0.0.aar\6c807e422e6000d88c003514d7b104ae\AndroidManifest.xml:20:5-44
-INJECTED from C:\Users\P\Desktop\1127\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\P\Desktop\1127\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\P\Desktop\Technology-sharing\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\P\Desktop\Technology-sharing\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from C:\Users\P\Desktop\1127\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\P\Desktop\1127\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\P\Desktop\1127\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\P\Desktop\Technology-sharing\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\P\Desktop\Technology-sharing\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\P\Desktop\Technology-sharing\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\P\Desktop\1127\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\P\Desktop\1127\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\P\Desktop\1127\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\P\Desktop\Technology-sharing\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\P\Desktop\Technology-sharing\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\P\Desktop\Technology-sharing\app\src\main\AndroidManifest.xml
 provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
 ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\P\.gradle\caches\transforms-1\files-1.1\lifecycle-process-2.0.0.aar\ff92a06a969f9f12c28301077d2d4450\AndroidManifest.xml:23:9-27:43
 	android:authorities

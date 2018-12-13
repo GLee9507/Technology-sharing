@@ -49,7 +49,7 @@ public class TestFragment extends Fragment {
     @Override
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
-        mainViewModel = ViewModelProviders.of(this).get(TestViewModel.class);
+        mainViewModel = ViewModelProviders.of(this, ViewMoedlFactory.getInstance()).get(TestViewModel.class);
         //基本用法
         mainViewModel.integerLiveData.observe(
                 getViewLifecycleOwner(),

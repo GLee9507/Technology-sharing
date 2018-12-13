@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\P\\Desktop\\1127\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "outputFile": "C:\\Users\\P\\Desktop\\Technology-sharing\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\P\\Desktop\\1127\\app\\src\\main\\res\\values\\styles.xml",
+                    "source": "C:\\Users\\P\\Desktop\\Technology-sharing\\app\\src\\main\\res\\values\\styles.xml",
                     "from": {
                         "startLines": "3",
                         "startColumns": "4",
@@ -20,6 +20,23 @@
                         "endLines": "2066",
                         "endColumns": "12",
                         "endOffsets": "124049"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\P\\Desktop\\Technology-sharing\\app\\src\\main\\res\\values\\colors.xml",
+                    "from": {
+                        "startLines": "4,2,3",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "157,57,105",
+                        "endColumns": "45,46,50",
+                        "endOffsets": "198,99,151"
+                    },
+                    "to": {
+                        "startLines": "227,228,229",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "10643,10689,10736",
+                        "endColumns": "45,46,50",
+                        "endOffsets": "10684,10731,10782"
                     }
                 },
                 {
@@ -58,6 +75,23 @@
                         "endLines": "252,253,973,1166,1198,1235,1242,1918,1919,1920,1921,1922,1923,1924,1940,1941,1942,1943,1944,1945,1946,1947,1948,1949,1950,1951,1952,1953,1954,1963,1964,1965,1966,1967,1968,1969,1970,1971,1972,1973,1974,1975,1976,1977,1978,1979,1980,1981,1982,1983,1984,1985,1986,1987,1988,1989,1990,1991,1992,1993,1994,1995,1996,1997,2004,2005,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2025,2055,3393,3397,3398,3402,3403,3541,3542",
                         "endColumns": "68,62,24,24,24,24,24,69,67,71,69,60,73,72,60,60,61,63,61,60,67,99,59,65,72,68,56,51,61,71,75,64,58,58,59,59,59,59,59,59,59,59,59,59,58,59,59,59,59,59,59,59,59,59,59,58,59,59,58,58,58,58,58,58,34,34,54,62,54,57,56,49,60,56,33,34,34,69,70,116,12,109,12,128,71,66",
                         "endOffsets": "12204,12267,51469,69626,71691,73451,73828,114678,114746,114818,114888,114949,115023,115096,116327,116388,116450,116514,116576,116637,116705,116805,116865,116931,117004,117073,117130,117182,117244,117769,117845,117910,117969,118028,118088,118148,118208,118268,118328,118388,118448,118508,118568,118628,118687,118747,118807,118867,118927,118987,119047,119107,119167,119227,119287,119346,119406,119466,119525,119584,119643,119702,119761,119820,120160,120195,120392,120455,120510,120568,120625,120675,120736,120793,120827,120862,120897,121242,123288,212988,213189,213299,213500,213629,224613,224680"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\P\\Desktop\\Technology-sharing\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "1",
+                        "startColumns": "4",
+                        "startOffsets": "17",
+                        "endColumns": "55",
+                        "endOffsets": "68"
+                    },
+                    "to": {
+                        "startLines": "2053",
+                        "startColumns": "4",
+                        "startOffsets": "123113",
+                        "endColumns": "55",
+                        "endOffsets": "123164"
                     }
                 },
                 {
@@ -115,40 +149,6 @@
                         "endLines": "22,1014,1103,3545",
                         "endColumns": "60,24,24,12",
                         "endOffsets": "1016,59848,65059,224825"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\P\\Desktop\\1127\\app\\src\\main\\res\\values\\colors.xml",
-                    "from": {
-                        "startLines": "4,2,3",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "157,57,105",
-                        "endColumns": "45,46,50",
-                        "endOffsets": "198,99,151"
-                    },
-                    "to": {
-                        "startLines": "227,228,229",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "10643,10689,10736",
-                        "endColumns": "45,46,50",
-                        "endOffsets": "10684,10731,10782"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\P\\Desktop\\1127\\app\\src\\main\\res\\values\\strings.xml",
-                    "from": {
-                        "startLines": "1",
-                        "startColumns": "4",
-                        "startOffsets": "17",
-                        "endColumns": "55",
-                        "endOffsets": "68"
-                    },
-                    "to": {
-                        "startLines": "2053",
-                        "startColumns": "4",
-                        "startOffsets": "123113",
-                        "endColumns": "55",
-                        "endOffsets": "123164"
                     }
                 }
             ]

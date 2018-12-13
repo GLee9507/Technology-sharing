@@ -27,6 +27,35 @@ public class TestViewModel extends ViewModel {
                     return "进度：" + input;
                 }
             });
+    LiveData<String> stringLiveData =
+            Transformations.switchMap(integerLiveData, new Function<Integer, LiveData<String>>() {
+                @Override
+                public LiveData<String> apply(Integer input) {
+                    return null;
+                }
+            });
+
+    /**
+     * 用户信息LiveData，通过网络状态自动切换源LiveData
+     */
+    public LiveData<UserInfo> userInfoliveData =
+            Transformations.switchMap(
+                    //传入网络状态LiveData
+                    netStatesLiveData,
+                    new Function<NetStates, LiveData<UserInfo>>() {
+                        @Override
+                        public LiveData<UserInfo> apply(NetStates states) {
+                            //如果网络状态改变为可用状态，返回网络用户信息LiveData
+                            if (states == NetStates.AVAILABLE) {
+                                return netUserInfoLiveData;
+                            } else {
+                                //反之返回本地数据库用户信息LiveData
+                                return localDBUserInfoLiveData;
+                            }
+                        }
+                    }
+            );
+
     private boolean canceled = false;
 
     public TestViewModel() {
