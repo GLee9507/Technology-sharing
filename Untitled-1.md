@@ -268,7 +268,33 @@ public class MutableLiveData<T> extends LiveData<T> {
     }
 }
 ```
+### MediatorLiveData
+合并多个LiveData至一个LiveData
+![](https://github.com/GLee9507/Technology-sharing/raw/master/img/mediatorlivedata.png)
 
+```java
+LiveData<String> liveDataA = new MutableLiveData<>();
+LiveData<String> liveDataB = new MutableLiveData<>();
+MediatorLiveData<String> mediatorLiveData = new MediatorLiveData<>();
+
+public TestViewModel() {
+    mediatorLiveData.addSource(liveDataA, new Observer<String>() {
+        //监听liveDataA，当其变化时更新mediatorLiveData
+        @Override
+        public void onChanged(String s) {
+            mediatorLiveData.setValue(s);
+        }
+    });
+
+    mediatorLiveData.addSource(liveDataB, new Observer<String>() {
+        //监听liveDataB，当其变化时更新mediatorLiveData
+        @Override
+        public void onChanged(String s) {
+            mediatorLiveData.setValue(s);
+        }
+    });
+}
+```
 ### Transformations#map 
 
 例
@@ -312,3 +338,4 @@ public LiveData<UserInfo> userInfoliveData =
                 }
         );
 ```
+
