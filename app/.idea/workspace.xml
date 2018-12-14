@@ -63,7 +63,7 @@
       <file leaf-file-name="Lifecycle.java" pinned="false" current-in-tab="true">
         <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-common/2.0.0/cb4562c8927ab69f2a8ef49267b90753207df0c3/lifecycle-common-2.0.0-sources.jar!/androidx/lifecycle/Lifecycle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
+            <state relative-caret-position="2262">
               <caret line="142" column="14" lean-forward="true" selection-start-line="142" selection-start-column="14" selection-end-line="142" selection-end-column="14" />
             </state>
           </provider>
@@ -2123,7 +2123,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
@@ -2438,7 +2438,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -2735,7 +2735,7 @@
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-common/2.0.0/cb4562c8927ab69f2a8ef49267b90753207df0c3/lifecycle-common-2.0.0-sources.jar!/androidx/lifecycle/Lifecycle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
+        <state relative-caret-position="2262">
           <caret line="142" column="14" lean-forward="true" selection-start-line="142" selection-start-column="14" selection-end-line="142" selection-end-column="14" />
         </state>
       </provider>
