@@ -49,22 +49,22 @@ public class TestFragment extends Fragment {
     @Override
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
-        mainViewModel = ViewModelProviders.of(this, ViewMoedlFactory.getInstance()).get(TestViewModel.class);
-        //基本用法
-        mainViewModel.integerLiveData.observe(
-                getViewLifecycleOwner(),
-                s -> {
-                    Log.d("TestFragment", "integerLiveData" + s);
-                    progressBar.setProgress(s == null ? 0 : s);
-                }
-        );
-
-        //Transformations#map
-        mainViewModel.stringLiveData.observe(
-                getViewLifecycleOwner(), s -> {
-                    Log.d("TestFragment", "stringLiveData" + s);
-                    textView.setText(s);
-                }
-        );
+//        mainViewModel = ViewModelProviders.of(this, ViewMoedlFactory.getInstance()).get(TestViewModel.class);
+//        //基本用法
+//        mainViewModel.integerLiveData.observe(
+//                getViewLifecycleOwner(),
+//                s -> {
+//                    Log.d("TestFragment", "integerLiveData" + s);
+//                    progressBar.setProgress(s == null ? 0 : s);
+//                }
+//        );
+//
+//        //Transformations#map
+//        mainViewModel.stringLiveData.observe(
+//                getViewLifecycleOwner(), s -> {
+//                    Log.d("TestFragment", "stringLiveData" + s);
+//                    textView.setText(s);
+//                }
+//        );
     }
 }

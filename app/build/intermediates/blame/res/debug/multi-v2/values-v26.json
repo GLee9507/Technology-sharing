@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\P\\Desktop\\Technology-sharing\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v26\\values-v26.xml",
+            "outputFile": "/home/glee/Develop/Technology-sharing/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v26/values-v26.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\P\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-1.1.0-alpha01.aar\\e268904e192416e09228f6c4712cd6e7\\res\\values-v26\\values-v26.xml",
+                    "source": "/home/glee/.gradle/caches/transforms-1/files-1.1/appcompat-1.1.0-alpha01.aar/f136863afcd52fa920e644ca13e35306/res/values-v26/values-v26.xml",
                     "from": {
                         "startLines": "2,3,4,8,12,16",
                         "startColumns": "4,4,4,4,4,4",
