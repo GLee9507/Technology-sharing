@@ -372,7 +372,7 @@ public enum State {
 
 例
 ```java
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity {`
 
 
     @Override
@@ -381,7 +381,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         getLifecycle().addObserver(new LifecycleObserver() {
-            
+
             @OnLifecycleEvent(Lifecycle.Event.ON_RESUME)
             public void onResume() {
                 Log.w(TAG, "onResume: ");
