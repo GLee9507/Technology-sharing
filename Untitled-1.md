@@ -75,7 +75,7 @@ public class TestFragment extends Fragment {
 }
 ```
 
-1. 有参构造
+2. 有参构造
 ```java
 public class ViewModelFactory extends ViewModelProvider.NewInstanceFactory {
     private static ViewModelFactory factory;
@@ -639,6 +639,9 @@ public class TestFragment extends Fragment {
     @Override
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
+
+        //Activity重建时Fragment不会销毁
+        setRetainInstance(true);
         //LifeCycleOwner参数由this替换为getViewLifecycleOwner()
         mainViewModel.integerLiveData.observe(
             /*this*/ getViewLifecycleOwner(),
