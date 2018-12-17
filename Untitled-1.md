@@ -343,9 +343,11 @@ public LiveData<UserInfo> userInfoliveData =
 
 ## Lifecycle
 
-在support library 26.1.0版本以后，AppCompatActivity和Fragment已引入Lifecycle
+Lifecycle是一个管理View生命周期的组件。在support library 26.1.0版本以后，AppCompatActivity和Fragment已引入Lifecycle
 
-7个事件
+Lifecycle使用两个主要的枚举来跟踪他所关联组件的生命周期。
+
+生命周期事件
 ```java
 public enum Event {
     ON_CREATE,
@@ -356,7 +358,7 @@ public enum Event {
     ON_DESTROY
 }
 ```
-
+生命周期状态
 ```java
 public enum State {
     DESTROYED,
@@ -364,5 +366,31 @@ public enum State {
     CREATED,
     STARTED,
     RESUMED
+}
+```
+![](https://github.com/GLee9507/Technology-sharing/raw/master/img/lifecycle.webp)
+
+例
+```java
+public class MainActivity extends AppCompatActivity {`
+
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+
+        getLifecycle().addObserver(new LifecycleObserver() {
+
+            @OnLifecycleEvent(Lifecycle.Event.ON_RESUME)
+            public void onResume() {
+                Log.w(TAG, "onResume: ");
+            }
+
+            @OnLifecycleEvent(Lifecycle.Event.ON_PAUSE)
+            public void onPause() {
+                Log.w(TAG, "onPause: ");
+            }
+        });
 }
 ```
