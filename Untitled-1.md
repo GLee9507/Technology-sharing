@@ -345,7 +345,9 @@ public LiveData<UserInfo> userInfoliveData =
 
 Lifecycle是一个管理View生命周期的组件。在support library 26.1.0版本以后，AppCompatActivity和Fragment已引入Lifecycle
 
-Lifecycle使用两个主要的枚举来跟踪他所关联组件的生命周期。
+Lifecycle使用两个主要的枚举来跟踪他所关联组件的生命周期
+
+LiveData的核心功能就是通过Lifecycle实现的
 
 生命周期事件
 ```java
@@ -361,18 +363,18 @@ public enum Event {
 生命周期状态
 ```java
 public enum State {
-    DESTROYED,
     INITIALIZED,
     CREATED,
     STARTED,
-    RESUMED
+    RESUMED,
+    DESTROYED
 }
 ```
 ![](https://github.com/GLee9507/Technology-sharing/raw/master/img/lifecycle.webp)
 
 例
 ```java
-public class MainActivity extends AppCompatActivity {`
+public class MainActivity extends AppCompatActivity {
 
 
     @Override
@@ -380,8 +382,10 @@ public class MainActivity extends AppCompatActivity {`
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        //AppCompatActivity已经实现了LifeCycleOwner接口
         getLifecycle().addObserver(new LifecycleObserver() {
 
+            //通过注解监听生命周期事件
             @OnLifecycleEvent(Lifecycle.Event.ON_RESUME)
             public void onResume() {
                 Log.w(TAG, "onResume: ");
@@ -392,5 +396,420 @@ public class MainActivity extends AppCompatActivity {`
                 Log.w(TAG, "onPause: ");
             }
         });
+}
+```
+
+## Sample
+
+ViewModel层
+
+
+
+```java
+public class MovieViewModel extends ViewModel {
+    //远程数据源
+    private final RemoteDataSource remoteDataSource;
+    
+    //电影详情LiveData
+    private MutableLiveData<Movie> movieLiveData = new MutableLiveData<>();
+    
+    //刷新状态LiveData
+    private MutableLiveData<Boolean> refreshStateLiveData = new MutableLiveData<>();
+    
+    //电影标题LiveData
+    public LiveData<String> titleLiveData = Transformations.map(movieLiveData,
+            new Function<Movie, String>() {
+                @Override
+                public String apply(Movie input) {
+                    return input.getTitle();
+                }
+            });
+
+    //电影简介LiveData
+    public LiveData<String> summaryLiveData = Transformations.map(movieLiveData,
+            new Function<Movie, String>() {
+                @Override
+                public String apply(Movie input) {
+                    return input.getSummary();
+                }
+            });
+
+    //电影海报LiveData
+    public LiveData<String> imgLiveData = Transformations.map(movieLiveData,
+            new Function<Movie, String>() {
+                @Override
+                public String apply(Movie input) {
+                    return input.getImages().getLarge();
+                }
+            });
+
+    public MovieViewModel(RemoteDataSource remoteDataSource) {
+        this.remoteDataSource = remoteDataSource;
+        //初始化时加载数据
+        getMovie();
+        //设置刷新状态为true
+        refreshStateLiveData.setValue(true);
+    }
+
+
+    //电影id数组
+    private int[] ids = {3878007, 27069377, 1291560, 27198855, 27615441};
+    //当前电影的索引
+    private int index = ids.length;
+
+    /**
+     * 网络请求电影详情
+     */
+    public void getMovie() {
+        //遍历请求
+        remoteDataSource.getMovie(ids[index++ % ids.length]).enqueue(new Callback<Movie>() {
+            @Override
+            public void onResponse(Call<Movie> call, Response<Movie> response) {
+                //更新电影详情LiveData数据
+                movieLiveData.setValue(response.body());
+                //刷新状态LiveData置为false
+                refreshStateLiveData.setValue(false);
+            }
+
+            @Override
+            public void onFailure(Call<Movie> call, Throwable t) {
+                //刷新状态LiveData置为false
+                refreshStateLiveData.setValue(false);
+            }
+        });
+    }
+
+    public LiveData<Boolean> getRefreshStateLiveData() {
+        return refreshStateLiveData;
+    }
+
+    public LiveData<String> getTitleLiveData() {
+        return titleLiveData;
+    }
+
+    public LiveData<String> getSummaryLiveData() {
+        return summaryLiveData;
+    }
+
+    public LiveData<String> getImgLiveData() {
+        return imgLiveData;
+    }
+}
+```
+ViewModel工厂
+```java
+public class ViewModelFactory extends ViewModelProvider.NewInstanceFactory {
+    private static ViewModelFactory factory;
+
+
+    /**
+     * 获取工厂单例
+     */
+    public static ViewModelFactory getInstance() {
+        if (factory == null) {
+            factory = new ViewModelFactory();
+        }
+        return factory;
+    }
+    //远程数据源，这里为Retrofit API
+    private final RemoteDataSource remoteDataSource;
+
+    private ViewModelFactory() {
+        //构造Retrofit API
+        remoteDataSource = new Retrofit.Builder()
+                .baseUrl("https://api.douban.com/v2/movie/")
+                .addConverterFactory(GsonConverterFactory.create())
+                .build()
+                .create(RemoteDataSource.class);
+    }
+
+    @SuppressWarnings("unchecked")
+    @NonNull
+    @Override
+    public <T extends ViewModel> T create(@NonNull Class<T> modelClass) {
+        //通过class对象判断所需的ViewModel，直接new构造并返回
+        if (MovieViewModel.class.isAssignableFrom(modelClass)) {
+            return (T) new MovieViewModel(remoteDataSource);
+        }
+        return super.create(modelClass);
+    }
+}
+```
+Retrofit API
+```java
+public interface RemoteDataSource {
+
+    /**
+     * 获取电影详情
+     * @param id 电影id
+     */
+    @GET("movie/subject/{id}?apikey=0b2bdeda43b5688921839c8ecb20399b")
+    Call<Movie> getMovie(@Path("id") int id);
+}
+```
+View层
+```java
+public class MovieActivity extends AppCompatActivity {
+
+    private MovieViewModel movieViewModel;
+    private TextView title;
+    private TextView summary;
+    private ImageView imageView;
+    private SwipeRefreshLayout swipeRefreshLayout;
+
+    @Override
+    protected void onCreate(@Nullable Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_movie);
+        //获取ViewModel
+        movieViewModel = ViewModelProviders
+                .of(this, ViewModelFactory.getInstance())
+                .get(MovieViewModel.class);
+        //初始化View
+        initView();
+        //绑定View
+        bindView();
+    }
+
+    private void bindView() {
+        //绑定ViewModel中的电影详情LiveData
+        movieViewModel.titleLiveData.observe(this,
+                new Observer<String>() {
+                    @Override
+                    public void onChanged(String strTitle) {
+                        title.setText(strTitle);
+                    }
+                });
+
+        movieViewModel.summaryLiveData.observe(this,
+                new Observer<String>() {
+                    @Override
+                    public void onChanged(String strSummary) {
+                        summary.setText(strSummary);
+                    }
+                });
+
+        movieViewModel.imgLiveData.observe(this,
+                new Observer<String>() {
+                    @Override
+                    public void onChanged(String url) {
+                        Glide.with(imageView.getContext()).load(url).into(imageView);
+                    }
+                });
+
+        //绑定ViewModel中的刷新状态LiveData
+        movieViewModel.getRefreshStateLiveData().observe(this,
+                new Observer<Boolean>() {
+                    @Override
+                    public void onChanged(Boolean aBoolean) {
+                        swipeRefreshLayout.setRefreshing(aBoolean == null ? false : aBoolean);
+                    }
+                }
+        );
+    }
+
+    private void initView() {
+        title = findViewById(R.id.title);
+        summary = findViewById(R.id.summary);
+        swipeRefreshLayout = findViewById(R.id.swipe);
+        imageView = findViewById(R.id.image);
+        //下拉刷新时请求电影详情数据
+        swipeRefreshLayout.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
+            @Override
+            public void onRefresh() {
+                movieViewModel.getMovie();
+            }
+        });
+    }
+}
+```
+
+## Architecture Components常见误区
+
+### 1. View层不可
+
+### 1. 泄漏Fragment观察者
+当我们在Fragment中使用LiveData时，在Fragment与Activity取消关联`Fragment#onDetach()`并且重新关联` Fragment#onAttach()`时，Fragment观察者会泄漏。因为Fragment没有执行`Fragment#onDestroyView()`生命周期，观察者并没有自动移除，故当LiveData更新数据时观察者`Observer#onChanged()`会执行多次
+
+正确用法
+
+```java
+public class TestFragment extends Fragment {
+
+    @Override
+    public void onActivityCreated(@Nullable Bundle savedInstanceState) {
+        super.onActivityCreated(savedInstanceState);
+        //LifeCycleOwner参数由this替换为getViewLifecycleOwner()
+        mainViewModel.integerLiveData.observe(
+            /*this*/ getViewLifecycleOwner(),
+                new Observer<Integer>() {
+                    @Override
+                    public void onChanged(Integer s) {
+                        progressBar.setProgress(s == null ? 0 : s);
+                    }
+                }
+        );
+    }
+}
+```
+ `Fragment#getViewLifecycleOwner()`是Support 28.0.0 和 AndroidX 1.0.0引入的
+
+### 2. 首次加载数据在`Activity#onCreate()`、`Fragment#onCreateView()`中
+
+当配置变更时Activity重建，导致重复加载数据
+
+正确使用方式在ViewModel的构造方法中首次加载数据
+
+### 3. 将MutableLiveData暴露给View
+
+违背了关注点分离原则，有悖于MVVM设计思想。即View不可直接对ViewModel中的数据进行修改
+## 简化View层代码利器——DataBinding
+DataBinding可以让你以XML声明的形式而不是代码编程的形式将布局中的UI组件绑定到程序中的数据源
+
+### 启用DataBinding
+build.gradle 
+```java
+android {
+    ...
+    dataBinding {
+        enabled = true
+    }
+}
+
+dependencies {
+    ...
+    annotationProcessor 'androidx.databinding:databinding-compiler:3.2.1'
+}
+```
+
+
+DataBindingV2支持绑定LiveData
+
+需要在gradle.properties中添加
+```java
+android.databinding.enableV2=true
+```
+### View层精简后
+
+```java
+public class MovieActivity extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(@Nullable Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        ActivityMovieBinding binding = DataBindingUtil.setContentView(this, R.layout.activity_movie);
+        //获取ViewModel
+        MovieViewModel movieViewModel = ViewModelProviders
+                .of(this, ViewModelFactory.getInstance())
+                .get(MovieViewModel.class);
+        //设置属性
+        binding.setViewModel(movieViewModel);
+        //设置生命周期所有者
+        binding.setLifecycleOwner(this);
+    }
+}
+```
+
+### xml布局文件
+
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+        <variable
+            name="viewModel"
+            type="com.glee.technology_sharing.sample.movie.MovieViewModel" />
+    </data>
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayou
+        android:id="@+id/swipe"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:onRefresh="@{()->viewModel.getMovie()}"
+        app:refresh_state="@{viewModel.refreshStateLiveData}">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="@{viewModel.titleLiveData}"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/summary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="@{viewModel.summaryLiveData}"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                app:load_url="@{viewModel.imgLiveData}" />
+        </LinearLayout>
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+</layout>
+```
+
+
+### DataBinding适配器
+
+```java
+public class Adapter {
+    /**
+     * imageView加载图片
+     *
+     * @param imageView ImageView
+     * @param url       图片url
+     */
+    @BindingAdapter("load_url")
+    public static void loadUrl(
+            ImageView imageView,
+            String url
+    ) {
+        Glide.with(imageView.getContext()).load(url).into(imageView);
+    }
+
+    /**
+     * 设置刷新状态
+     *
+     * @param swipeRefreshLayout SwipeRefreshLayout
+     * @param state              是否在刷新中
+     */
+    @BindingAdapter("refresh_state")
+    public static void refreshState(
+            SwipeRefreshLayout swipeRefreshLayout,
+            Boolean state
+    ) {
+        swipeRefreshLayout.setRefreshing(state);
+    }
+
+    /**
+     * 刷新回调
+     *
+     * @param swipeRefreshLayout SwipeRefreshLayout
+     * @param lambda             监听
+     */
+    @BindingAdapter("onRefresh")
+    public static void refreshState(
+            SwipeRefreshLayout swipeRefreshLayout,
+            SwipeRefreshLayout.OnRefreshListener lambda
+    ) {
+        if (lambda != null) {
+            swipeRefreshLayout.setOnRefreshListener(lambda);
+        }
+    }
 }
 ```
