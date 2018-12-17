@@ -626,7 +626,7 @@ public class MovieActivity extends AppCompatActivity {
 
 ## Architecture Components常见误区
 
-### 1. View层不能包含业务逻辑和数据逻辑的代码
+### 1. View层包含业务逻辑和数据逻辑的代码
 
 ### 2. 泄漏Fragment观察者
 当我们在Fragment中使用LiveData时，在Fragment与Activity取消关联`Fragment#onDetach()`并且重新关联` Fragment#onAttach()`时，Fragment观察者会泄漏。因为Fragment没有执行`Fragment#onDestroyView()`生命周期，观察者并没有自动移除，故当LiveData更新数据时观察者`Observer#onChanged()`会执行多次
