@@ -1,4 +1,5 @@
-# 使用Android Architecture Components构建MVVM应用
+# 美行科技 Android 技术分享
+
 
 本文主要阐述了使用Android Architecture Components构建MVVM应用
 
@@ -399,11 +400,10 @@ public class MainActivity extends AppCompatActivity {
 }
 ```
 
-## Sample
-
+## Sample 
+代码文件结构  
+![](https://github.com/GLee9507/Technology-sharing/raw/master/img/project.png)  
 ViewModel层
-
-
 
 ```java
 public class MovieViewModel extends ViewModel {
