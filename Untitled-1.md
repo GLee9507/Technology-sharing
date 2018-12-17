@@ -626,9 +626,9 @@ public class MovieActivity extends AppCompatActivity {
 
 ## Architecture Components常见误区
 
-### 1. View层不可
+### 1. View层不能包含业务逻辑和数据逻辑的代码
 
-### 1. 泄漏Fragment观察者
+### 2. 泄漏Fragment观察者
 当我们在Fragment中使用LiveData时，在Fragment与Activity取消关联`Fragment#onDetach()`并且重新关联` Fragment#onAttach()`时，Fragment观察者会泄漏。因为Fragment没有执行`Fragment#onDestroyView()`生命周期，观察者并没有自动移除，故当LiveData更新数据时观察者`Observer#onChanged()`会执行多次
 
 正确用法
@@ -654,13 +654,13 @@ public class TestFragment extends Fragment {
 ```
  `Fragment#getViewLifecycleOwner()`是Support 28.0.0 和 AndroidX 1.0.0引入的
 
-### 2. 首次加载数据在`Activity#onCreate()`、`Fragment#onCreateView()`中
+### 3. 首次加载数据在`Activity#onCreate()`、`Fragment#onCreateView()`中
 
 当配置变更时Activity重建，导致重复加载数据
 
 正确使用方式在ViewModel的构造方法中首次加载数据
 
-### 3. 将MutableLiveData暴露给View
+### 4. 将MutableLiveData暴露给View
 
 违背了关注点分离原则，有悖于MVVM设计思想。即View不可直接对ViewModel中的数据进行修改
 ## 简化View层代码利器——DataBinding
