@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="wechat" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="error" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
+  </component>
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/main/java/com/glee/technology_sharing/sample/movie/MovieActivity2.java" line="22" mnemonic="6" />
   </component>
   <component name="CMakeSettings">
     <configurations>
@@ -31,105 +39,115 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="ComponentActivity.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.activity/activity/1.0.0-alpha02/9ca838793742a645448bddddb441d439b11fcb26/activity-1.0.0-alpha02-sources.jar!/androidx/activity/ComponentActivity.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="MovieViewModel.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/glee/technology_sharing/sample/movie/MovieViewModel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
-              <caret line="102" column="31" selection-start-line="102" selection-start-column="31" selection-end-line="102" selection-end-column="31" />
+            <state relative-caret-position="234">
+              <caret line="93" column="37" selection-start-line="93" selection-start-column="37" selection-end-line="93" selection-end-column="37" />
               <folding>
-                <element signature="e#2912#3452#0" expanded="true" />
-                <element signature="e#3451#3452#0" expanded="true" />
-                <element signature="e#3500#3872#0" expanded="true" />
-                <element signature="e#3871#3872#0" expanded="true" />
-                <element signature="e#5932#5933#0" expanded="true" />
-                <element signature="e#5959#5960#0" expanded="true" />
-                <element signature="e#7117#7118#0" expanded="true" />
-                <element signature="e#7158#7159#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#1022#1023#0" expanded="true" />
+                <element signature="e#1069#1070#0" expanded="true" />
+                <element signature="e#2817#2818#0" expanded="true" />
+                <element signature="e#2860#2861#0" expanded="true" />
+                <element signature="e#2910#2911#0" expanded="true" />
+                <element signature="e#2946#2947#0" expanded="true" />
+                <element signature="e#2998#2999#0" expanded="true" />
+                <element signature="e#3036#3037#0" expanded="true" />
+                <element signature="e#3084#3085#0" expanded="true" />
+                <element signature="e#3118#3119#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReportFragment.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-runtime/2.0.0/94562933879240f04fc2dea3f1841171b164c748/lifecycle-runtime-2.0.0-sources.jar!/androidx/lifecycle/ReportFragment.java">
+      <file leaf-file-name="ActivityMovieBindingImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build/generated/source/apt/debug/com/glee/technology_sharing/databinding/ActivityMovieBindingImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="81" column="40" selection-start-line="81" selection-start-column="40" selection-end-line="81" selection-end-column="40" />
+            <state relative-caret-position="207">
+              <caret line="187" column="66" selection-start-line="187" selection-start-column="66" selection-end-line="187" selection-end-column="66" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Lifecycle.java" pinned="false" current-in-tab="true">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-common/2.0.0/cb4562c8927ab69f2a8ef49267b90753207df0c3/lifecycle-common-2.0.0-sources.jar!/androidx/lifecycle/Lifecycle.java">
+      <file leaf-file-name="RemoteDataSource.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/glee/technology_sharing/sample/repository/RemoteDataSource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2262">
-              <caret line="142" column="14" lean-forward="true" selection-start-line="142" selection-start-column="14" selection-end-line="142" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ClassesInfoCache.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-common/2.0.0/cb4562c8927ab69f2a8ef49267b90753207df0c3/lifecycle-common-2.0.0-sources.jar!/androidx/lifecycle/ClassesInfoCache.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="65">
-              <caret line="164" column="58" selection-start-line="164" selection-start-column="58" selection-end-line="164" selection-end-column="58" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ReflectiveGenericLifecycleObserver.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-common/2.0.0/cb4562c8927ab69f2a8ef49267b90753207df0c3/lifecycle-common-2.0.0-sources.jar!/androidx/lifecycle/ReflectiveGenericLifecycleObserver.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="454">
-              <caret line="35" column="14" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LifecycleRegistryOwner.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-runtime/2.0.0/94562933879240f04fc2dea3f1841171b164c748/lifecycle-runtime-2.0.0-sources.jar!/androidx/lifecycle/LifecycleRegistryOwner.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProcessLifecycleOwner.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/lifecycle-process-2.0.0.aar/ff92a06a969f9f12c28301077d2d4450/jars/classes.jar!/androidx/lifecycle/ProcessLifecycleOwner.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-936">
+            <state relative-caret-position="181">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
               <folding>
-                <element signature="e#0#3963#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReportFragment.java" pinned="false" current-in-tab="false">
-        <entry file="file://D:/android-sdk/Android/Sdk/sources/android-28/androidx/lifecycle/ReportFragment.java">
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+            <state relative-caret-position="216">
+              <caret line="45" selection-start-line="45" selection-end-line="45" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AppCompatActivity.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.appcompat/appcompat/1.1.0-alpha01/7d1adf1f577b2c9c6ee06d1797a9d1a1169f14a9/appcompat-1.1.0-alpha01-sources.jar!/androidx/appcompat/app/AppCompatActivity.java">
+      <file leaf-file-name="MovieActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/glee/technology_sharing/sample/movie/MovieActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-12818">
-              <caret line="69" column="23" lean-forward="true" selection-start-line="69" selection-start-column="23" selection-end-line="69" selection-end-column="23" />
+            <state relative-caret-position="142">
+              <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LifecycleRegistry.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-runtime/2.0.0/94562933879240f04fc2dea3f1841171b164c748/lifecycle-runtime-2.0.0-sources.jar!/androidx/lifecycle/LifecycleRegistry.java">
+      <file leaf-file-name="activity_movie.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_movie.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="429">
-              <caret line="123" column="15" lean-forward="true" selection-start-line="123" selection-start-column="15" selection-end-line="123" selection-end-column="15" />
+            <state relative-caret-position="520">
+              <caret line="20" column="48" lean-forward="true" selection-end-line="48" />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer2">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestFragment.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/glee/technology_sharing/TestFragment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="128">
+              <caret line="51" column="30" lean-forward="true" selection-start-line="51" selection-start-column="30" selection-end-line="51" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/glee/technology_sharing/MainActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="364">
+              <caret line="32" column="23" lean-forward="true" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestViewModel.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/glee/technology_sharing/TestViewModel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="182">
+              <caret line="22" column="2" lean-forward="true" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Adapter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/glee/technology_sharing/sample/Adapter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="10" column="15" lean-forward="true" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -139,6 +157,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
+        <option value="layoutResourceFile" />
         <option value="Class" />
       </list>
     </option>
@@ -149,7 +169,7 @@
       <find>ThreadLocal</find>
       <find>mLifecycleRegistry</find>
       <find>((LifecycleRegistry) lifecycle)</find>
-      <find>((LifecycleRegistry) lifecycle)</find>
+      <find>schedule_url</find>
     </findStrings>
   </component>
   <component name="GradleLocalSettings">
@@ -502,6 +522,38 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/.." />
                 <option name="name" value="createReleaseCompatibleScreenManifests" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/.." />
+                <option name="name" value="dataBindingExportBuildInfoDebug" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/.." />
+                <option name="name" value="dataBindingExportBuildInfoRelease" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/.." />
+                <option name="name" value="dataBindingExportFeaturePackageIdsDebug" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/.." />
+                <option name="name" value="dataBindingExportFeaturePackageIdsRelease" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/.." />
+                <option name="name" value="dataBindingGenBaseClassesDebug" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/.." />
+                <option name="name" value="dataBindingGenBaseClassesRelease" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/.." />
+                <option name="name" value="dataBindingMergeDependencyArtifactsDebug" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/.." />
+                <option name="name" value="dataBindingMergeDependencyArtifactsRelease" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Installs and runs instrumentation tests using all Device Providers." />
@@ -959,6 +1011,14 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/.." />
+                <option name="name" value="transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForDebug" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/.." />
+                <option name="name" value="transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForRelease" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/.." />
                 <option name="name" value="transformDexArchiveWithDexMergerForDebug" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
@@ -1082,6 +1142,10 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="dataBindingGenBaseClassesRelease" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="compileDebugSources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
@@ -1092,6 +1156,10 @@
                 <option name="description" value="Runs all device checks using Device Providers and Test Servers." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="deviceCheck" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForRelease" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -1450,6 +1518,14 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="dataBindingExportFeaturePackageIdsRelease" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="dataBindingExportBuildInfoRelease" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="generateReleaseResources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
@@ -1561,6 +1637,14 @@
                 <option name="name" value="bundleDebugAndroidTestResources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="dataBindingExportFeaturePackageIdsDebug" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="dataBindingExportBuildInfoDebug" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Displays all dependencies declared in project ':app'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="dependencies" />
@@ -1605,6 +1689,10 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForDebug" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="packageDebugUniversalApk" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
@@ -1635,6 +1723,10 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="generateDebugAndroidTestSources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="dataBindingMergeDependencyArtifactsDebug" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -1705,6 +1797,10 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="javaPreCompileReleaseUnitTest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="dataBindingGenBaseClassesDebug" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -1850,6 +1946,10 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="generateReleaseBuildConfig" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="dataBindingMergeDependencyArtifactsRelease" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Displays the signing info for each variant." />
@@ -2113,66 +2213,48 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/glee/technology_sharing/TestFragment.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/glee/technology_sharing/ViewMoedlFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/glee/technology_sharing/ViewMoedelFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/glee/technology_sharing/ViewModelFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/glee/technology_sharing/AViewModel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/glee/technology_sharing/TestViewModel.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/glee/technology_sharing/MainActivity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/glee/technology_sharing/LifePopupWindow.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/glee/technology_sharing/LifeDialog.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/glee/technology_sharing/sample/WatherViewModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/glee/technology_sharing/sample/WatherActivity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/glee/technology_sharing/ViewModelFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/glee/technology_sharing/sample/repository/ResponseBody.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/glee/technology_sharing/sample/WeatherViewModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/glee/technology_sharing/sample/WeatherActivity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/glee/technology_sharing/sample/MovieActivity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/glee/technology_sharing/sample/repository/Movie.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/glee/technology_sharing/sample/repository/bean/Movie.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/glee/technology_sharing/sample/ViewModelFactory.java" />
+        <option value="$PROJECT_DIR$/../gradle.properties" />
+        <option value="$PROJECT_DIR$/src/main/res/layout/activity_movie.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/glee/technology_sharing/sample/movie/MovieActivity1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/glee/technology_sharing/sample/movie/MovieActivity.java" />
+        <option value="$PROJECT_DIR$/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/java/com/glee/technology_sharing/sample/repository/RemoteDataSource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/glee/technology_sharing/sample/Adapter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/glee/technology_sharing/sample/movie/MovieViewModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/glee/technology_sharing/TestViewModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/glee/technology_sharing/TestFragment.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="width" value="1440" />
-    <option name="height" value="900" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1394" />
+    <option name="height" value="916" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView">
-        <subPane>
-          <expand>
-            <path>
-              <item name="app" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-            </path>
-            <path>
-              <item name="app" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-            </path>
-            <path>
-              <item name="app" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="app" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="glee" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="app" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="glee" type="462c0819:PsiDirectoryNode" />
-              <item name="technology_sharing" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="app" type="1abcf292:AndroidViewProjectNode" />
-              <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -2239,80 +2321,115 @@
             </path>
             <path>
               <item name="app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Technology-sharing" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="glee" type="462c0819:PsiDirectoryNode" />
+              <item name="technology_sharing" type="462c0819:PsiDirectoryNode" />
+              <item name="sample" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Technology-sharing" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="glee" type="462c0819:PsiDirectoryNode" />
+              <item name="technology_sharing" type="462c0819:PsiDirectoryNode" />
+              <item name="sample" type="462c0819:PsiDirectoryNode" />
+              <item name="movie" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Technology-sharing" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="glee" type="462c0819:PsiDirectoryNode" />
+              <item name="technology_sharing" type="462c0819:PsiDirectoryNode" />
+              <item name="sample" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Technology-sharing" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="app" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: androidx.activity:activity-1.0.0-alpha02" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: androidx.activity:activity-1.0.0-alpha02" type="70bed36:NamedLibraryElementNode" />
-              <item name="classes.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: androidx.activity:activity-1.0.0-alpha02" type="70bed36:NamedLibraryElementNode" />
-              <item name="classes.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="androidx" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: androidx.activity:activity-1.0.0-alpha02" type="70bed36:NamedLibraryElementNode" />
-              <item name="classes.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="androidx" type="462c0819:PsiDirectoryNode" />
-              <item name="activity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: androidx.fragment:fragment-1.1.0-alpha02" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: androidx.fragment:fragment-1.1.0-alpha02" type="70bed36:NamedLibraryElementNode" />
-              <item name="classes.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: androidx.fragment:fragment-1.1.0-alpha02" type="70bed36:NamedLibraryElementNode" />
-              <item name="classes.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="androidx" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: androidx.fragment:fragment-1.1.0-alpha02" type="70bed36:NamedLibraryElementNode" />
-              <item name="classes.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="androidx" type="462c0819:PsiDirectoryNode" />
-              <item name="fragment" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: androidx.fragment:fragment-1.1.0-alpha02" type="70bed36:NamedLibraryElementNode" />
-              <item name="classes.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="androidx" type="462c0819:PsiDirectoryNode" />
-              <item name="fragment" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="AndroidView">
+        <subPane>
+          <expand>
+            <path>
+              <item name="app" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+            </path>
+            <path>
+              <item name="app" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="app" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="app" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="glee" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="app" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="glee" type="462c0819:PsiDirectoryNode" />
+              <item name="technology_sharing" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="app" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DEBUGGABLE_DEVICE" value="oneplus-oneplus_a3000-af057ec5" />
+    <property name="DEBUGGABLE_PROCESS" value="com.glee.technology_sharing" />
+    <property name="DEBUGGER_ID" value="Auto" />
+    <property name="SHOW_ALL_PROCESSES" value="false" />
     <property name="android.sdk.path" value="D:/android-sdk/Android/Sdk" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="device.picker.selection" value="af057ec5" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../.." />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.glee.technology_sharing.sample.movie" />
+      <recent name="com.glee.technology_sharing.sample" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -2347,7 +2464,7 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
       <module name="app" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
@@ -2438,42 +2555,42 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="1" />
+    <frame x="-8" y="-8" width="1394" height="916" extended-state="0" />
     <editor active="true" />
     <layout>
+      <window_info anchor="bottom" id="Android Profiler" order="8" weight="0.71659917" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Android Profiler" order="8" show_stripe_button="false" weight="0.71659917" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info id="Image Layers" order="4" />
       <window_info id="Build Variants" order="3" side_tool="true" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5036232" side_tool="true" visible="true" weight="0.0040871934" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50524735" side_tool="true" weight="0.612" />
+      <window_info anchor="right" id="Preview" order="9" weight="0.29310346" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49861112" weight="0.7076923" />
       <window_info anchor="bottom" id="Version Control" order="14" show_stripe_button="false" sideWeight="0.49722221" weight="0.17633136" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49513888" weight="0.7029586" />
-      <window_info anchor="bottom" id="Logcat" order="13" sideWeight="0.4963768" visible="true" weight="0.0040871934" />
+      <window_info active="true" anchor="bottom" id="Logcat" order="13" sideWeight="0.4963768" visible="true" weight="0.34" />
       <window_info id="Captures" order="2" weight="0.25" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.9230769" visible="true" weight="0.38115942" />
-      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.49513888" weight="0.027638191" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49930555" weight="0.23076923" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.9230769" visible="true" weight="0.3005997" />
+      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.49475262" weight="0.05733333" />
       <window_info anchor="right" id="Gradle" order="6" sideWeight="0.49632353" weight="0.32916668" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49850076" weight="0.027218934" />
-      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49850076" weight="0.62266666" />
       <window_info anchor="right" id="Device File Explorer" order="5" sideWeight="0.501845" side_tool="true" weight="0.61180556" />
-      <window_info anchor="right" id="Preview" order="9" weight="0.29385307" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="right" id="Commander" order="1" weight="0.4" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Inspection Results" order="11" sideWeight="0.49925038" weight="0.19053255" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" order="12" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" id="Assistant" order="0" weight="0.32916668" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.24962519" />
-      <window_info anchor="bottom" id="Inspection Results" order="11" sideWeight="0.49925038" weight="0.19053255" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49930555" weight="0.23076923" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -2481,80 +2598,22 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/glee/technology_sharing/sample/movie/MovieViewModel.java</url>
+          <line>80</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="3" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://D:/android-sdk/Android/Sdk/sources/android-28/java/lang/Class.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="451">
-          <caret line="582" column="21" lean-forward="true" selection-start-line="582" selection-start-column="21" selection-end-line="582" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="499">
-          <caret line="37" column="39" selection-start-line="37" selection-start-column="39" selection-end-line="37" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.fragment/fragment/1.1.0-alpha02/b81436c82dc8e5481dcadfef7f5747942218f6f6/fragment-1.1.0-alpha02-sources.jar!/androidx/fragment/app/Fragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="322" column="36" selection-start-line="322" selection-start-column="36" selection-end-line="322" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.fragment/fragment/1.1.0-alpha02/b81436c82dc8e5481dcadfef7f5747942218f6f6/fragment-1.1.0-alpha02-sources.jar!/androidx/fragment/app/FragmentManagerViewModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="35" column="22" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.fragment/fragment/1.1.0-alpha02/b81436c82dc8e5481dcadfef7f5747942218f6f6/fragment-1.1.0-alpha02-sources.jar!/androidx/fragment/app/FragmentManagerImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="547">
-          <caret line="2537" column="25" selection-start-line="2537" selection-start-column="25" selection-end-line="2537" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/android-sdk/Android/Sdk/sources/android-28/android/app/LocalActivityManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="646" column="27" selection-start-line="646" selection-start-column="27" selection-end-line="646" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.fragment/fragment/1.1.0-alpha02/b81436c82dc8e5481dcadfef7f5747942218f6f6/fragment-1.1.0-alpha02-sources.jar!/androidx/fragment/app/FragmentTransitionCompat21.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2652">
-          <caret line="44" column="20" selection-start-line="44" selection-start-column="20" selection-end-line="44" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.fragment/fragment/1.1.0-alpha02/b81436c82dc8e5481dcadfef7f5747942218f6f6/fragment-1.1.0-alpha02-sources.jar!/androidx/fragment/app/ListFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="278" column="18" selection-start-line="278" selection-start-column="18" selection-end-line="278" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-viewmodel/2.0.0/41b56105d14b1151a963444875cab191271f43db/lifecycle-viewmodel-2.0.0-sources.jar!/androidx/lifecycle/ViewModelProvider.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
           <caret line="148" column="23" selection-start-line="148" selection-start-column="23" selection-end-line="148" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/glee/technology_sharing/ViewModelFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="31" selection-start-line="31" selection-end-line="33" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2579,13 +2638,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/glee/technology_sharing/AViewModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/glee/technology_sharing/AViewModel.java" />
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-livedata-core/2.0.0/c158207594782b42f3a2e08a5a029eb3319e4404/lifecycle-livedata-core-2.0.0-sources.jar!/androidx/lifecycle/MutableLiveData.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
@@ -2603,37 +2656,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="74" column="43" selection-start-line="74" selection-start-column="32" selection-end-line="74" selection-end-column="43" />
-          <folding>
-            <element signature="e#2840#3011#0" expanded="true" />
-            <element signature="e#3010#3011#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/glee/technology_sharing/TestViewModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="65" column="21" selection-start-line="59" selection-end-line="77" selection-end-column="5" />
-          <folding>
-            <element signature="e#2443#2444#0" expanded="true" />
-            <element signature="e#2503#2504#0" expanded="true" />
-            <element signature="e#2663#2664#0" expanded="true" />
-            <element signature="e#2723#2724#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/glee/technology_sharing/TestFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="992">
-          <caret line="64" column="31" selection-start-line="64" selection-start-column="31" selection-end-line="64" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/glee/technology_sharing/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="39" column="35" selection-start-line="39" selection-start-column="35" selection-end-line="39" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -2660,7 +2682,7 @@
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.appcompat/appcompat/1.1.0-alpha01/7d1adf1f577b2c9c6ee06d1797a9d1a1169f14a9/appcompat-1.1.0-alpha01-sources.jar!/androidx/appcompat/app/AppCompatActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-12818">
+        <state relative-caret-position="780">
           <caret line="69" column="23" lean-forward="true" selection-start-line="69" selection-start-column="23" selection-end-line="69" selection-end-column="23" />
         </state>
       </provider>
@@ -2674,13 +2696,9 @@
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.activity/activity/1.0.0-alpha02/9ca838793742a645448bddddb441d439b11fcb26/activity-1.0.0-alpha02-sources.jar!/androidx/activity/ComponentActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
+        <state relative-caret-position="1820">
           <caret line="102" column="31" selection-start-line="102" selection-start-column="31" selection-end-line="102" selection-end-column="31" />
           <folding>
-            <element signature="e#2912#3452#0" expanded="true" />
-            <element signature="e#3451#3452#0" expanded="true" />
-            <element signature="e#3500#3872#0" expanded="true" />
-            <element signature="e#3871#3872#0" expanded="true" />
             <element signature="e#5932#5933#0" expanded="true" />
             <element signature="e#5959#5960#0" expanded="true" />
             <element signature="e#7117#7118#0" expanded="true" />
@@ -2691,18 +2709,7 @@
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/lifecycle-process-2.0.0.aar/ff92a06a969f9f12c28301077d2d4450/jars/classes.jar!/androidx/lifecycle/ProcessLifecycleOwner.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-936">
-          <folding>
-            <element signature="e#0#3963#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-runtime/2.0.0/94562933879240f04fc2dea3f1841171b164c748/lifecycle-runtime-2.0.0-sources.jar!/androidx/lifecycle/LifecycleRegistry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="123" column="15" lean-forward="true" selection-start-line="123" selection-start-column="15" selection-end-line="123" selection-end-column="15" />
-        </state>
+        <state />
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-runtime/2.0.0/94562933879240f04fc2dea3f1841171b164c748/lifecycle-runtime-2.0.0-sources.jar!/androidx/lifecycle/LifecycleRegistryOwner.java">
@@ -2714,29 +2721,853 @@
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-runtime/2.0.0/94562933879240f04fc2dea3f1841171b164c748/lifecycle-runtime-2.0.0-sources.jar!/androidx/lifecycle/ReportFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
+        <state relative-caret-position="1638">
           <caret line="81" column="40" selection-start-line="81" selection-start-column="40" selection-end-line="81" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-common/2.0.0/cb4562c8927ab69f2a8ef49267b90753207df0c3/lifecycle-common-2.0.0-sources.jar!/androidx/lifecycle/ReflectiveGenericLifecycleObserver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="454">
+        <state relative-caret-position="520">
           <caret line="35" column="14" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-common/2.0.0/cb4562c8927ab69f2a8ef49267b90753207df0c3/lifecycle-common-2.0.0-sources.jar!/androidx/lifecycle/ClassesInfoCache.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
+        <state relative-caret-position="3718">
           <caret line="164" column="58" selection-start-line="164" selection-start-column="58" selection-end-line="164" selection-end-column="58" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-common/2.0.0/cb4562c8927ab69f2a8ef49267b90753207df0c3/lifecycle-common-2.0.0-sources.jar!/androidx/lifecycle/Lifecycle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2262">
-          <caret line="142" column="14" lean-forward="true" selection-start-line="142" selection-start-column="14" selection-end-line="142" selection-end-column="14" />
+        <state relative-caret-position="1505">
+          <caret line="135" column="11" selection-start-line="135" selection-start-column="11" selection-end-line="135" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/android-sdk/Android/Sdk/sources/android-28/android/widget/PopupWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-565">
+          <caret line="1878" column="16" selection-start-line="1878" selection-start-column="16" selection-end-line="1878" selection-end-column="16" />
+          <folding>
+            <element signature="e#43747#43748#0" expanded="true" />
+            <element signature="e#43791#43792#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.fragment/fragment/1.1.0-alpha02/b81436c82dc8e5481dcadfef7f5747942218f6f6/fragment-1.1.0-alpha02-sources.jar!/androidx/fragment/app/Fragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="2654" column="35" selection-start-line="2654" selection-start-column="35" selection-end-line="2654" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-runtime/2.0.0/94562933879240f04fc2dea3f1841171b164c748/lifecycle-runtime-2.0.0-sources.jar!/androidx/lifecycle/LifecycleRegistry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="121" column="34" lean-forward="true" selection-start-line="121" selection-start-column="34" selection-end-line="121" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-process/2.0.0/8987183ddf04ab7f340753ad5d6ceb4ba53e4b37/lifecycle-process-2.0.0-sources.jar!/androidx/lifecycle/ProcessLifecycleOwner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2437">
+          <caret line="48" column="13" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-process/2.0.0/8987183ddf04ab7f340753ad5d6ceb4ba53e4b37/lifecycle-process-2.0.0-sources.jar!/androidx/lifecycle/ProcessLifecycleOwnerInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="41" column="13" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-process/2.0.0/8987183ddf04ab7f340753ad5d6ceb4ba53e4b37/lifecycle-process-2.0.0-sources.jar!/androidx/lifecycle/EmptyActivityLifecycleCallbacks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="22" column="6" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-process/2.0.0/8987183ddf04ab7f340753ad5d6ceb4ba53e4b37/lifecycle-process-2.0.0-sources.jar!/androidx/lifecycle/LifecycleDispatcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-381">
+          <caret line="34" column="6" selection-start-line="34" selection-start-column="6" selection-end-line="34" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-service/2.0.0/1713b49b49342b814dac9b7bbe856e18d71b8bdd/lifecycle-service-2.0.0-sources.jar!/androidx/lifecycle/ServiceLifecycleDispatcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-303">
+          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/glee/technology_sharing/LifeDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="17" column="51" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/glee/technology_sharing/LifePopupWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#398#399#0" expanded="true" />
+            <element signature="e#425#426#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/glee/technology_sharing/ViewModelFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="29" column="7" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/glee/technology_sharing/sample/repository/ResponseBody.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#5328#5329#0" expanded="true" />
+            <element signature="e#5356#5357#0" expanded="true" />
+            <element signature="e#5395#5396#0" expanded="true" />
+            <element signature="e#5429#5430#0" expanded="true" />
+            <element signature="e#5458#5459#0" expanded="true" />
+            <element signature="e#5486#5487#0" expanded="true" />
+            <element signature="e#5525#5526#0" expanded="true" />
+            <element signature="e#5559#5560#0" expanded="true" />
+            <element signature="e#5588#5589#0" expanded="true" />
+            <element signature="e#5616#5617#0" expanded="true" />
+            <element signature="e#5655#5656#0" expanded="true" />
+            <element signature="e#5689#5690#0" expanded="true" />
+            <element signature="e#5721#5722#0" expanded="true" />
+            <element signature="e#5749#5750#0" expanded="true" />
+            <element signature="e#5791#5792#0" expanded="true" />
+            <element signature="e#5825#5826#0" expanded="true" />
+            <element signature="e#5872#5873#0" expanded="true" />
+            <element signature="e#5903#5904#0" expanded="true" />
+            <element signature="e#5963#5964#0" expanded="true" />
+            <element signature="e#6003#6004#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/android-sdk/Android/Sdk/sources/android-28/android/widget/TextView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="5527" column="12" lean-forward="true" selection-start-line="5527" selection-start-column="12" selection-end-line="5527" selection-end-column="12" />
+          <folding>
+            <element signature="e#215216#215217#0" expanded="true" />
+            <element signature="e#215258#215259#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.5.0/5c17035548a41ec60f00291163d36596a23ddd1a/retrofit-2.5.0-sources.jar!/retrofit2/Retrofit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="126" column="1" selection-start-line="126" selection-start-column="1" selection-end-line="126" selection-end-column="32" />
+          <folding>
+            <element signature="e#5590#5620#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/glee/technology_sharing/sample/ViewModelFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../gradle.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/glee/technology_sharing/sample/repository/bean/Movie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#13978#13979#0" expanded="true" />
+            <element signature="e#14007#14008#0" expanded="true" />
+            <element signature="e#14055#14056#0" expanded="true" />
+            <element signature="e#14091#14092#0" expanded="true" />
+            <element signature="e#14128#14129#0" expanded="true" />
+            <element signature="e#14164#14165#0" expanded="true" />
+            <element signature="e#14219#14220#0" expanded="true" />
+            <element signature="e#14269#14270#0" expanded="true" />
+            <element signature="e#14303#14304#0" expanded="true" />
+            <element signature="e#14336#14337#0" expanded="true" />
+            <element signature="e#14385#14386#0" expanded="true" />
+            <element signature="e#14429#14430#0" expanded="true" />
+            <element signature="e#14470#14471#0" expanded="true" />
+            <element signature="e#14507#14508#0" expanded="true" />
+            <element signature="e#14567#14568#0" expanded="true" />
+            <element signature="e#14619#14620#0" expanded="true" />
+            <element signature="e#14656#14657#0" expanded="true" />
+            <element signature="e#14692#14693#0" expanded="true" />
+            <element signature="e#14747#14748#0" expanded="true" />
+            <element signature="e#14797#14798#0" expanded="true" />
+            <element signature="e#14834#14835#0" expanded="true" />
+            <element signature="e#14863#14864#0" expanded="true" />
+            <element signature="e#14911#14912#0" expanded="true" />
+            <element signature="e#14947#14948#0" expanded="true" />
+            <element signature="e#14985#14986#0" expanded="true" />
+            <element signature="e#15019#15020#0" expanded="true" />
+            <element signature="e#15073#15074#0" expanded="true" />
+            <element signature="e#15119#15120#0" expanded="true" />
+            <element signature="e#15150#15151#0" expanded="true" />
+            <element signature="e#15177#15178#0" expanded="true" />
+            <element signature="e#15217#15218#0" expanded="true" />
+            <element signature="e#15249#15250#0" expanded="true" />
+            <element signature="e#15279#15280#0" expanded="true" />
+            <element signature="e#15305#15306#0" expanded="true" />
+            <element signature="e#15343#15344#0" expanded="true" />
+            <element signature="e#15373#15374#0" expanded="true" />
+            <element signature="e#15402#15403#0" expanded="true" />
+            <element signature="e#15427#15428#0" expanded="true" />
+            <element signature="e#15463#15464#0" expanded="true" />
+            <element signature="e#15491#15492#0" expanded="true" />
+            <element signature="e#15528#15529#0" expanded="true" />
+            <element signature="e#15561#15562#0" expanded="true" />
+            <element signature="e#15613#15614#0" expanded="true" />
+            <element signature="e#15657#15658#0" expanded="true" />
+            <element signature="e#15693#15694#0" expanded="true" />
+            <element signature="e#15728#15729#0" expanded="true" />
+            <element signature="e#15781#15782#0" expanded="true" />
+            <element signature="e#15829#15830#0" expanded="true" />
+            <element signature="e#15863#15864#0" expanded="true" />
+            <element signature="e#15893#15894#0" expanded="true" />
+            <element signature="e#15939#15940#0" expanded="true" />
+            <element signature="e#15977#15978#0" expanded="true" />
+            <element signature="e#16009#16010#0" expanded="true" />
+            <element signature="e#16037#16038#0" expanded="true" />
+            <element signature="e#16079#16080#0" expanded="true" />
+            <element signature="e#16113#16114#0" expanded="true" />
+            <element signature="e#16148#16149#0" expanded="true" />
+            <element signature="e#16179#16180#0" expanded="true" />
+            <element signature="e#16227#16228#0" expanded="true" />
+            <element signature="e#16267#16268#0" expanded="true" />
+            <element signature="e#16303#16304#0" expanded="true" />
+            <element signature="e#16335#16336#0" expanded="true" />
+            <element signature="e#16386#16387#0" expanded="true" />
+            <element signature="e#16428#16429#0" expanded="true" />
+            <element signature="e#16464#16465#0" expanded="true" />
+            <element signature="e#16496#16497#0" expanded="true" />
+            <element signature="e#16546#16547#0" expanded="true" />
+            <element signature="e#16588#16589#0" expanded="true" />
+            <element signature="e#16628#16629#0" expanded="true" />
+            <element signature="e#16664#16665#0" expanded="true" />
+            <element signature="e#16722#16723#0" expanded="true" />
+            <element signature="e#16772#16773#0" expanded="true" />
+            <element signature="e#16811#16812#0" expanded="true" />
+            <element signature="e#16846#16847#0" expanded="true" />
+            <element signature="e#16902#16903#0" expanded="true" />
+            <element signature="e#16950#16951#0" expanded="true" />
+            <element signature="e#16984#16985#0" expanded="true" />
+            <element signature="e#17014#17015#0" expanded="true" />
+            <element signature="e#17060#17061#0" expanded="true" />
+            <element signature="e#17098#17099#0" expanded="true" />
+            <element signature="e#17137#17138#0" expanded="true" />
+            <element signature="e#17172#17173#0" expanded="true" />
+            <element signature="e#17229#17230#0" expanded="true" />
+            <element signature="e#17277#17278#0" expanded="true" />
+            <element signature="e#17314#17315#0" expanded="true" />
+            <element signature="e#17347#17348#0" expanded="true" />
+            <element signature="e#17399#17400#0" expanded="true" />
+            <element signature="e#17443#17444#0" expanded="true" />
+            <element signature="e#17484#17485#0" expanded="true" />
+            <element signature="e#17521#17522#0" expanded="true" />
+            <element signature="e#17581#17582#0" expanded="true" />
+            <element signature="e#17633#17634#0" expanded="true" />
+            <element signature="e#17670#17671#0" expanded="true" />
+            <element signature="e#17703#17704#0" expanded="true" />
+            <element signature="e#17756#17757#0" expanded="true" />
+            <element signature="e#17800#17801#0" expanded="true" />
+            <element signature="e#17841#17842#0" expanded="true" />
+            <element signature="e#17878#17879#0" expanded="true" />
+            <element signature="e#17938#17939#0" expanded="true" />
+            <element signature="e#17990#17991#0" expanded="true" />
+            <element signature="e#18033#18034#0" expanded="true" />
+            <element signature="e#18072#18073#0" expanded="true" />
+            <element signature="e#18226#18227#0" expanded="true" />
+            <element signature="e#18256#18257#0" expanded="true" />
+            <element signature="e#18302#18303#0" expanded="true" />
+            <element signature="e#18340#18341#0" expanded="true" />
+            <element signature="e#18374#18375#0" expanded="true" />
+            <element signature="e#18404#18405#0" expanded="true" />
+            <element signature="e#18450#18451#0" expanded="true" />
+            <element signature="e#18488#18489#0" expanded="true" />
+            <element signature="e#18526#18527#0" expanded="true" />
+            <element signature="e#18563#18564#0" expanded="true" />
+            <element signature="e#18620#18621#0" expanded="true" />
+            <element signature="e#18672#18673#0" expanded="true" />
+            <element signature="e#18709#18710#0" expanded="true" />
+            <element signature="e#18745#18746#0" expanded="true" />
+            <element signature="e#18800#18801#0" expanded="true" />
+            <element signature="e#18850#18851#0" expanded="true" />
+            <element signature="e#18884#18885#0" expanded="true" />
+            <element signature="e#18913#18914#0" expanded="true" />
+            <element signature="e#18958#18959#0" expanded="true" />
+            <element signature="e#18994#18995#0" expanded="true" />
+            <element signature="e#19034#19035#0" expanded="true" />
+            <element signature="e#19069#19070#0" expanded="true" />
+            <element signature="e#19126#19127#0" expanded="true" />
+            <element signature="e#19174#19175#0" expanded="true" />
+            <element signature="e#19236#19237#0" expanded="true" />
+            <element signature="e#19275#19276#0" expanded="true" />
+            <element signature="e#19456#19457#0" expanded="true" />
+            <element signature="e#19488#19489#0" expanded="true" />
+            <element signature="e#19544#19545#0" expanded="true" />
+            <element signature="e#19586#19587#0" expanded="true" />
+            <element signature="e#19631#19632#0" expanded="true" />
+            <element signature="e#19661#19662#0" expanded="true" />
+            <element signature="e#19718#19719#0" expanded="true" />
+            <element signature="e#19756#19757#0" expanded="true" />
+            <element signature="e#19797#19798#0" expanded="true" />
+            <element signature="e#19828#19829#0" expanded="true" />
+            <element signature="e#19882#19883#0" expanded="true" />
+            <element signature="e#19922#19923#0" expanded="true" />
+            <element signature="e#19959#19960#0" expanded="true" />
+            <element signature="e#19986#19987#0" expanded="true" />
+            <element signature="e#20032#20033#0" expanded="true" />
+            <element signature="e#20064#20065#0" expanded="true" />
+            <element signature="e#20106#20107#0" expanded="true" />
+            <element signature="e#20138#20139#0" expanded="true" />
+            <element signature="e#20194#20195#0" expanded="true" />
+            <element signature="e#20236#20237#0" expanded="true" />
+            <element signature="e#20275#20276#0" expanded="true" />
+            <element signature="e#20304#20305#0" expanded="true" />
+            <element signature="e#20354#20355#0" expanded="true" />
+            <element signature="e#20390#20391#0" expanded="true" />
+            <element signature="e#20437#20438#0" expanded="true" />
+            <element signature="e#20468#20469#0" expanded="true" />
+            <element signature="e#20528#20529#0" expanded="true" />
+            <element signature="e#20568#20569#0" expanded="true" />
+            <element signature="e#20613#20614#0" expanded="true" />
+            <element signature="e#20648#20649#0" expanded="true" />
+            <element signature="e#20710#20711#0" expanded="true" />
+            <element signature="e#20758#20759#0" expanded="true" />
+            <element signature="e#20794#20795#0" expanded="true" />
+            <element signature="e#20825#20826#0" expanded="true" />
+            <element signature="e#20874#20875#0" expanded="true" />
+            <element signature="e#20914#20915#0" expanded="true" />
+            <element signature="e#20951#20952#0" expanded="true" />
+            <element signature="e#20983#20984#0" expanded="true" />
+            <element signature="e#21034#21035#0" expanded="true" />
+            <element signature="e#21076#21077#0" expanded="true" />
+            <element signature="e#21117#21118#0" expanded="true" />
+            <element signature="e#21145#21146#0" expanded="true" />
+            <element signature="e#21196#21197#0" expanded="true" />
+            <element signature="e#21230#21231#0" expanded="true" />
+            <element signature="e#21272#21273#0" expanded="true" />
+            <element signature="e#21304#21305#0" expanded="true" />
+            <element signature="e#21360#21361#0" expanded="true" />
+            <element signature="e#21402#21403#0" expanded="true" />
+            <element signature="e#21445#21446#0" expanded="true" />
+            <element signature="e#21474#21475#0" expanded="true" />
+            <element signature="e#21528#21529#0" expanded="true" />
+            <element signature="e#21564#21565#0" expanded="true" />
+            <element signature="e#21597#21598#0" expanded="true" />
+            <element signature="e#21625#21626#0" expanded="true" />
+            <element signature="e#21668#21669#0" expanded="true" />
+            <element signature="e#21702#21703#0" expanded="true" />
+            <element signature="e#21751#21752#0" expanded="true" />
+            <element signature="e#21783#21784#0" expanded="true" />
+            <element signature="e#21846#21847#0" expanded="true" />
+            <element signature="e#21888#21889#0" expanded="true" />
+            <element signature="e#21948#21949#0" expanded="true" />
+            <element signature="e#21986#21987#0" expanded="true" />
+            <element signature="e#22156#22157#0" expanded="true" />
+            <element signature="e#22182#22183#0" expanded="true" />
+            <element signature="e#22226#22227#0" expanded="true" />
+            <element signature="e#22256#22257#0" expanded="true" />
+            <element signature="e#22639#22640#0" expanded="true" />
+            <element signature="e#22673#22674#0" expanded="true" />
+            <element signature="e#22712#22713#0" expanded="true" />
+            <element signature="e#22750#22751#0" expanded="true" />
+            <element signature="e#22788#22789#0" expanded="true" />
+            <element signature="e#22826#22827#0" expanded="true" />
+            <element signature="e#22876#22877#0" expanded="true" />
+            <element signature="e#22922#22923#0" expanded="true" />
+            <element signature="e#22965#22966#0" expanded="true" />
+            <element signature="e#23003#23004#0" expanded="true" />
+            <element signature="e#23058#23059#0" expanded="true" />
+            <element signature="e#23104#23105#0" expanded="true" />
+            <element signature="e#23140#23141#0" expanded="true" />
+            <element signature="e#23176#23177#0" expanded="true" />
+            <element signature="e#23222#23223#0" expanded="true" />
+            <element signature="e#23264#23265#0" expanded="true" />
+            <element signature="e#23295#23296#0" expanded="true" />
+            <element signature="e#23329#23330#0" expanded="true" />
+            <element signature="e#23368#23369#0" expanded="true" />
+            <element signature="e#23406#23407#0" expanded="true" />
+            <element signature="e#23933#23934#0" expanded="true" />
+            <element signature="e#23975#23976#0" expanded="true" />
+            <element signature="e#24018#24019#0" expanded="true" />
+            <element signature="e#24064#24065#0" expanded="true" />
+            <element signature="e#24099#24100#0" expanded="true" />
+            <element signature="e#24141#24142#0" expanded="true" />
+            <element signature="e#24184#24185#0" expanded="true" />
+            <element signature="e#24230#24231#0" expanded="true" />
+            <element signature="e#24265#24266#0" expanded="true" />
+            <element signature="e#24307#24308#0" expanded="true" />
+            <element signature="e#24350#24351#0" expanded="true" />
+            <element signature="e#24396#24397#0" expanded="true" />
+            <element signature="e#24431#24432#0" expanded="true" />
+            <element signature="e#24473#24474#0" expanded="true" />
+            <element signature="e#24516#24517#0" expanded="true" />
+            <element signature="e#24562#24563#0" expanded="true" />
+            <element signature="e#24597#24598#0" expanded="true" />
+            <element signature="e#24639#24640#0" expanded="true" />
+            <element signature="e#24682#24683#0" expanded="true" />
+            <element signature="e#24728#24729#0" expanded="true" />
+            <element signature="e#25223#25224#0" expanded="true" />
+            <element signature="e#25259#25260#0" expanded="true" />
+            <element signature="e#25305#25306#0" expanded="true" />
+            <element signature="e#25347#25348#0" expanded="true" />
+            <element signature="e#25383#25384#0" expanded="true" />
+            <element signature="e#25419#25420#0" expanded="true" />
+            <element signature="e#25465#25466#0" expanded="true" />
+            <element signature="e#25507#25508#0" expanded="true" />
+            <element signature="e#25544#25545#0" expanded="true" />
+            <element signature="e#25581#25582#0" expanded="true" />
+            <element signature="e#25629#25630#0" expanded="true" />
+            <element signature="e#25673#25674#0" expanded="true" />
+            <element signature="e#26464#26465#0" expanded="true" />
+            <element signature="e#26501#26502#0" expanded="true" />
+            <element signature="e#26554#26555#0" expanded="true" />
+            <element signature="e#26598#26599#0" expanded="true" />
+            <element signature="e#26638#26639#0" expanded="true" />
+            <element signature="e#26681#26682#0" expanded="true" />
+            <element signature="e#26738#26739#0" expanded="true" />
+            <element signature="e#26794#26795#0" expanded="true" />
+            <element signature="e#26835#26836#0" expanded="true" />
+            <element signature="e#26872#26873#0" expanded="true" />
+            <element signature="e#26924#26925#0" expanded="true" />
+            <element signature="e#26968#26969#0" expanded="true" />
+            <element signature="e#27009#27010#0" expanded="true" />
+            <element signature="e#27050#27051#0" expanded="true" />
+            <element signature="e#27106#27107#0" expanded="true" />
+            <element signature="e#27158#27159#0" expanded="true" />
+            <element signature="e#27196#27197#0" expanded="true" />
+            <element signature="e#27234#27235#0" expanded="true" />
+            <element signature="e#27284#27285#0" expanded="true" />
+            <element signature="e#27330#27331#0" expanded="true" />
+            <element signature="e#27371#27372#0" expanded="true" />
+            <element signature="e#27412#27413#0" expanded="true" />
+            <element signature="e#27468#27469#0" expanded="true" />
+            <element signature="e#27520#27521#0" expanded="true" />
+            <element signature="e#27553#27554#0" expanded="true" />
+            <element signature="e#27586#27587#0" expanded="true" />
+            <element signature="e#27626#27627#0" expanded="true" />
+            <element signature="e#27662#27663#0" expanded="true" />
+            <element signature="e#27933#27934#0" expanded="true" />
+            <element signature="e#27975#27976#0" expanded="true" />
+            <element signature="e#28018#28019#0" expanded="true" />
+            <element signature="e#28064#28065#0" expanded="true" />
+            <element signature="e#28101#28102#0" expanded="true" />
+            <element signature="e#28145#28146#0" expanded="true" />
+            <element signature="e#28192#28193#0" expanded="true" />
+            <element signature="e#28242#28243#0" expanded="true" />
+            <element signature="e#28277#28278#0" expanded="true" />
+            <element signature="e#28319#28320#0" expanded="true" />
+            <element signature="e#28362#28363#0" expanded="true" />
+            <element signature="e#28408#28409#0" expanded="true" />
+            <element signature="e#28998#28999#0" expanded="true" />
+            <element signature="e#29040#29041#0" expanded="true" />
+            <element signature="e#29086#29087#0" expanded="true" />
+            <element signature="e#29132#29133#0" expanded="true" />
+            <element signature="e#29173#29174#0" expanded="true" />
+            <element signature="e#29218#29219#0" expanded="true" />
+            <element signature="e#29270#29271#0" expanded="true" />
+            <element signature="e#29322#29323#0" expanded="true" />
+            <element signature="e#29366#29367#0" expanded="true" />
+            <element signature="e#29414#29415#0" expanded="true" />
+            <element signature="e#29472#29473#0" expanded="true" />
+            <element signature="e#29530#29531#0" expanded="true" />
+            <element signature="e#29568#29569#0" expanded="true" />
+            <element signature="e#29610#29611#0" expanded="true" />
+            <element signature="e#29656#29657#0" expanded="true" />
+            <element signature="e#29702#29703#0" expanded="true" />
+            <element signature="e#29739#29740#0" expanded="true" />
+            <element signature="e#29780#29781#0" expanded="true" />
+            <element signature="e#29824#29825#0" expanded="true" />
+            <element signature="e#29868#29869#0" expanded="true" />
+            <element signature="e#29907#29908#0" expanded="true" />
+            <element signature="e#29950#29951#0" expanded="true" />
+            <element signature="e#29998#29999#0" expanded="true" />
+            <element signature="e#30046#30047#0" expanded="true" />
+            <element signature="e#30844#30845#0" expanded="true" />
+            <element signature="e#30882#30883#0" expanded="true" />
+            <element signature="e#30937#30938#0" expanded="true" />
+            <element signature="e#30983#30984#0" expanded="true" />
+            <element signature="e#31021#31022#0" expanded="true" />
+            <element signature="e#31059#31060#0" expanded="true" />
+            <element signature="e#31109#31110#0" expanded="true" />
+            <element signature="e#31155#31156#0" expanded="true" />
+            <element signature="e#31190#31191#0" expanded="true" />
+            <element signature="e#31225#31226#0" expanded="true" />
+            <element signature="e#31269#31270#0" expanded="true" />
+            <element signature="e#31309#31310#0" expanded="true" />
+            <element signature="e#31343#31344#0" expanded="true" />
+            <element signature="e#31377#31378#0" expanded="true" />
+            <element signature="e#31419#31420#0" expanded="true" />
+            <element signature="e#31457#31458#0" expanded="true" />
+            <element signature="e#31490#31491#0" expanded="true" />
+            <element signature="e#31523#31524#0" expanded="true" />
+            <element signature="e#31563#31564#0" expanded="true" />
+            <element signature="e#31599#31600#0" expanded="true" />
+            <element signature="e#32228#32229#0" expanded="true" />
+            <element signature="e#32272#32273#0" expanded="true" />
+            <element signature="e#32322#32323#0" expanded="true" />
+            <element signature="e#32372#32373#0" expanded="true" />
+            <element signature="e#32412#32413#0" expanded="true" />
+            <element signature="e#32456#32457#0" expanded="true" />
+            <element signature="e#32506#32507#0" expanded="true" />
+            <element signature="e#32556#32557#0" expanded="true" />
+            <element signature="e#32597#32598#0" expanded="true" />
+            <element signature="e#32642#32643#0" expanded="true" />
+            <element signature="e#32694#32695#0" expanded="true" />
+            <element signature="e#32746#32747#0" expanded="true" />
+            <element signature="e#33511#33512#0" expanded="true" />
+            <element signature="e#33548#33549#0" expanded="true" />
+            <element signature="e#33596#33597#0" expanded="true" />
+            <element signature="e#33640#33641#0" expanded="true" />
+            <element signature="e#33676#33677#0" expanded="true" />
+            <element signature="e#33712#33713#0" expanded="true" />
+            <element signature="e#33758#33759#0" expanded="true" />
+            <element signature="e#33800#33801#0" expanded="true" />
+            <element signature="e#33841#33842#0" expanded="true" />
+            <element signature="e#33882#33883#0" expanded="true" />
+            <element signature="e#33938#33939#0" expanded="true" />
+            <element signature="e#33990#33991#0" expanded="true" />
+            <element signature="e#34024#34025#0" expanded="true" />
+            <element signature="e#34058#34059#0" expanded="true" />
+            <element signature="e#34100#34101#0" expanded="true" />
+            <element signature="e#34138#34139#0" expanded="true" />
+            <element signature="e#34174#34175#0" expanded="true" />
+            <element signature="e#34210#34211#0" expanded="true" />
+            <element signature="e#34256#34257#0" expanded="true" />
+            <element signature="e#34298#34299#0" expanded="true" />
+            <element signature="e#34341#34342#0" expanded="true" />
+            <element signature="e#34384#34385#0" expanded="true" />
+            <element signature="e#34444#34445#0" expanded="true" />
+            <element signature="e#34500#34501#0" expanded="true" />
+            <element signature="e#34533#34534#0" expanded="true" />
+            <element signature="e#34566#34567#0" expanded="true" />
+            <element signature="e#34606#34607#0" expanded="true" />
+            <element signature="e#34642#34643#0" expanded="true" />
+            <element signature="e#35290#35291#0" expanded="true" />
+            <element signature="e#35328#35329#0" expanded="true" />
+            <element signature="e#35384#35385#0" expanded="true" />
+            <element signature="e#35430#35431#0" expanded="true" />
+            <element signature="e#35468#35469#0" expanded="true" />
+            <element signature="e#35506#35507#0" expanded="true" />
+            <element signature="e#35556#35557#0" expanded="true" />
+            <element signature="e#35602#35603#0" expanded="true" />
+            <element signature="e#35637#35638#0" expanded="true" />
+            <element signature="e#35672#35673#0" expanded="true" />
+            <element signature="e#35716#35717#0" expanded="true" />
+            <element signature="e#35756#35757#0" expanded="true" />
+            <element signature="e#35790#35791#0" expanded="true" />
+            <element signature="e#35824#35825#0" expanded="true" />
+            <element signature="e#35866#35867#0" expanded="true" />
+            <element signature="e#35904#35905#0" expanded="true" />
+            <element signature="e#35937#35938#0" expanded="true" />
+            <element signature="e#35970#35971#0" expanded="true" />
+            <element signature="e#36010#36011#0" expanded="true" />
+            <element signature="e#36046#36047#0" expanded="true" />
+            <element signature="e#36526#36527#0" expanded="true" />
+            <element signature="e#36570#36571#0" expanded="true" />
+            <element signature="e#36620#36621#0" expanded="true" />
+            <element signature="e#36670#36671#0" expanded="true" />
+            <element signature="e#36710#36711#0" expanded="true" />
+            <element signature="e#36754#36755#0" expanded="true" />
+            <element signature="e#36804#36805#0" expanded="true" />
+            <element signature="e#36854#36855#0" expanded="true" />
+            <element signature="e#36895#36896#0" expanded="true" />
+            <element signature="e#36940#36941#0" expanded="true" />
+            <element signature="e#36992#36993#0" expanded="true" />
+            <element signature="e#37044#37045#0" expanded="true" />
+            <element signature="e#37766#37767#0" expanded="true" />
+            <element signature="e#37802#37803#0" expanded="true" />
+            <element signature="e#37848#37849#0" expanded="true" />
+            <element signature="e#37890#37891#0" expanded="true" />
+            <element signature="e#37926#37927#0" expanded="true" />
+            <element signature="e#37962#37963#0" expanded="true" />
+            <element signature="e#38008#38009#0" expanded="true" />
+            <element signature="e#38050#38051#0" expanded="true" />
+            <element signature="e#38086#38087#0" expanded="true" />
+            <element signature="e#38122#38123#0" expanded="true" />
+            <element signature="e#38168#38169#0" expanded="true" />
+            <element signature="e#38210#38211#0" expanded="true" />
+            <element signature="e#38244#38245#0" expanded="true" />
+            <element signature="e#38278#38279#0" expanded="true" />
+            <element signature="e#38320#38321#0" expanded="true" />
+            <element signature="e#38358#38359#0" expanded="true" />
+            <element signature="e#38391#38392#0" expanded="true" />
+            <element signature="e#38424#38425#0" expanded="true" />
+            <element signature="e#38464#38465#0" expanded="true" />
+            <element signature="e#38500#38501#0" expanded="true" />
+            <element signature="e#38535#38536#0" expanded="true" />
+            <element signature="e#38570#38571#0" expanded="true" />
+            <element signature="e#38614#38615#0" expanded="true" />
+            <element signature="e#38654#38655#0" expanded="true" />
+            <element signature="e#39458#39459#0" expanded="true" />
+            <element signature="e#39496#39497#0" expanded="true" />
+            <element signature="e#39553#39554#0" expanded="true" />
+            <element signature="e#39599#39600#0" expanded="true" />
+            <element signature="e#39637#39638#0" expanded="true" />
+            <element signature="e#39675#39676#0" expanded="true" />
+            <element signature="e#39725#39726#0" expanded="true" />
+            <element signature="e#39771#39772#0" expanded="true" />
+            <element signature="e#39806#39807#0" expanded="true" />
+            <element signature="e#39841#39842#0" expanded="true" />
+            <element signature="e#39885#39886#0" expanded="true" />
+            <element signature="e#39925#39926#0" expanded="true" />
+            <element signature="e#39959#39960#0" expanded="true" />
+            <element signature="e#39993#39994#0" expanded="true" />
+            <element signature="e#40035#40036#0" expanded="true" />
+            <element signature="e#40073#40074#0" expanded="true" />
+            <element signature="e#40106#40107#0" expanded="true" />
+            <element signature="e#40139#40140#0" expanded="true" />
+            <element signature="e#40179#40180#0" expanded="true" />
+            <element signature="e#40215#40216#0" expanded="true" />
+            <element signature="e#40846#40847#0" expanded="true" />
+            <element signature="e#40890#40891#0" expanded="true" />
+            <element signature="e#40940#40941#0" expanded="true" />
+            <element signature="e#40990#40991#0" expanded="true" />
+            <element signature="e#41030#41031#0" expanded="true" />
+            <element signature="e#41074#41075#0" expanded="true" />
+            <element signature="e#41124#41125#0" expanded="true" />
+            <element signature="e#41174#41175#0" expanded="true" />
+            <element signature="e#41215#41216#0" expanded="true" />
+            <element signature="e#41260#41261#0" expanded="true" />
+            <element signature="e#41312#41313#0" expanded="true" />
+            <element signature="e#41364#41365#0" expanded="true" />
+            <element signature="e#42237#42238#0" expanded="true" />
+            <element signature="e#42274#42275#0" expanded="true" />
+            <element signature="e#42328#42329#0" expanded="true" />
+            <element signature="e#42372#42373#0" expanded="true" />
+            <element signature="e#42408#42409#0" expanded="true" />
+            <element signature="e#42444#42445#0" expanded="true" />
+            <element signature="e#42490#42491#0" expanded="true" />
+            <element signature="e#42532#42533#0" expanded="true" />
+            <element signature="e#42573#42574#0" expanded="true" />
+            <element signature="e#42614#42615#0" expanded="true" />
+            <element signature="e#42670#42671#0" expanded="true" />
+            <element signature="e#42722#42723#0" expanded="true" />
+            <element signature="e#42764#42765#0" expanded="true" />
+            <element signature="e#42801#42802#0" expanded="true" />
+            <element signature="e#42854#42855#0" expanded="true" />
+            <element signature="e#42898#42899#0" expanded="true" />
+            <element signature="e#42936#42937#0" expanded="true" />
+            <element signature="e#42974#42975#0" expanded="true" />
+            <element signature="e#43024#43025#0" expanded="true" />
+            <element signature="e#43070#43071#0" expanded="true" />
+            <element signature="e#43104#43105#0" expanded="true" />
+            <element signature="e#43138#43139#0" expanded="true" />
+            <element signature="e#43180#43181#0" expanded="true" />
+            <element signature="e#43218#43219#0" expanded="true" />
+            <element signature="e#43251#43252#0" expanded="true" />
+            <element signature="e#43284#43285#0" expanded="true" />
+            <element signature="e#43324#43325#0" expanded="true" />
+            <element signature="e#43360#43361#0" expanded="true" />
+            <element signature="e#43632#43633#0" expanded="true" />
+            <element signature="e#43674#43675#0" expanded="true" />
+            <element signature="e#43717#43718#0" expanded="true" />
+            <element signature="e#43763#43764#0" expanded="true" />
+            <element signature="e#43800#43801#0" expanded="true" />
+            <element signature="e#43844#43845#0" expanded="true" />
+            <element signature="e#43891#43892#0" expanded="true" />
+            <element signature="e#43941#43942#0" expanded="true" />
+            <element signature="e#43976#43977#0" expanded="true" />
+            <element signature="e#44018#44019#0" expanded="true" />
+            <element signature="e#44061#44062#0" expanded="true" />
+            <element signature="e#44107#44108#0" expanded="true" />
+            <element signature="e#44682#44683#0" expanded="true" />
+            <element signature="e#44724#44725#0" expanded="true" />
+            <element signature="e#44770#44771#0" expanded="true" />
+            <element signature="e#44816#44817#0" expanded="true" />
+            <element signature="e#44857#44858#0" expanded="true" />
+            <element signature="e#44902#44903#0" expanded="true" />
+            <element signature="e#44954#44955#0" expanded="true" />
+            <element signature="e#45006#45007#0" expanded="true" />
+            <element signature="e#45050#45051#0" expanded="true" />
+            <element signature="e#45098#45099#0" expanded="true" />
+            <element signature="e#45156#45157#0" expanded="true" />
+            <element signature="e#45214#45215#0" expanded="true" />
+            <element signature="e#45252#45253#0" expanded="true" />
+            <element signature="e#45294#45295#0" expanded="true" />
+            <element signature="e#45340#45341#0" expanded="true" />
+            <element signature="e#45386#45387#0" expanded="true" />
+            <element signature="e#45423#45424#0" expanded="true" />
+            <element signature="e#45464#45465#0" expanded="true" />
+            <element signature="e#45508#45509#0" expanded="true" />
+            <element signature="e#45552#45553#0" expanded="true" />
+            <element signature="e#45591#45592#0" expanded="true" />
+            <element signature="e#45634#45635#0" expanded="true" />
+            <element signature="e#45682#45683#0" expanded="true" />
+            <element signature="e#45730#45731#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.swiperefreshlayout/swiperefreshlayout/1.0.0/ab92d86c004eb1d48e45f311b02ca53d6c86b607/swiperefreshlayout-1.0.0-sources.jar!/androidx/swiperefreshlayout/widget/SwipeRefreshLayout.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="1188" column="21" selection-start-line="1188" selection-start-column="21" selection-end-line="1188" selection-end-column="21" />
+          <folding>
+            <element signature="e#15241#15242#0" expanded="true" />
+            <element signature="e#15277#15278#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/android-sdk/Android/Sdk/sources/android-28/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="112" column="19" selection-start-line="112" selection-start-column="19" selection-end-line="112" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/glee/technology_sharing/sample/movie/MovieActivity2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="68" column="24" selection-end-line="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="19" column="65" selection-start-line="19" selection-start-column="65" selection-end-line="19" selection-end-column="65" />
+          <folding>
+            <element signature="e#270#288#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-manifest">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/glee/technology_sharing/sample/movie/MovieActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/glee/technology_sharing/sample/repository/RemoteDataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/glee/technology_sharing/sample/Adapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="10" column="15" lean-forward="true" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/glee/technology_sharing/sample/movie/MovieViewModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="93" column="37" selection-start-line="93" selection-start-column="37" selection-end-line="93" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1022#1023#0" expanded="true" />
+            <element signature="e#1069#1070#0" expanded="true" />
+            <element signature="e#2817#2818#0" expanded="true" />
+            <element signature="e#2860#2861#0" expanded="true" />
+            <element signature="e#2910#2911#0" expanded="true" />
+            <element signature="e#2946#2947#0" expanded="true" />
+            <element signature="e#2998#2999#0" expanded="true" />
+            <element signature="e#3036#3037#0" expanded="true" />
+            <element signature="e#3084#3085#0" expanded="true" />
+            <element signature="e#3118#3119#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/generated/source/apt/debug/com/glee/technology_sharing/databinding/ActivityMovieBindingImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="187" column="66" selection-start-line="187" selection-start-column="66" selection-end-line="187" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_movie.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="20" column="48" lean-forward="true" selection-end-line="48" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/glee/technology_sharing/TestViewModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="22" column="2" lean-forward="true" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/glee/technology_sharing/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="32" column="23" lean-forward="true" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/glee/technology_sharing/TestFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="51" column="30" lean-forward="true" selection-start-line="51" selection-start-column="30" selection-end-line="51" selection-end-column="30" />
         </state>
       </provider>
     </entry>
