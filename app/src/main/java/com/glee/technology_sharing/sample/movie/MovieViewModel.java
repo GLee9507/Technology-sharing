@@ -22,6 +22,8 @@ import retrofit2.Response;
 public class MovieViewModel extends ViewModel {
     //远程数据源
     private final RemoteDataSource remoteDataSource;
+    //网络请求对象
+    private Call<Movie> movieCall;
 
     //电影详情LiveData
     private MutableLiveData<Movie> movieLiveData = new MutableLiveData<>();
@@ -74,7 +76,8 @@ public class MovieViewModel extends ViewModel {
      */
     public void getMovie() {
         //遍历请求
-        remoteDataSource.getMovie(ids[index++ % ids.length]).enqueue(new Callback<Movie>() {
+        movieCall = remoteDataSource.getMovie(ids[index++ % ids.length]);
+        movieCall.enqueue(new Callback<Movie>() {
             @Override
             public void onResponse(Call<Movie> call, Response<Movie> response) {
                 //更新电影详情LiveData数据
@@ -105,5 +108,16 @@ public class MovieViewModel extends ViewModel {
 
     public LiveData<String> getImgLiveData() {
         return imgLiveData;
+    }
+
+    /**
+     * 取消网络请求，避免ViewModel泄漏
+     */
+    @Override
+    protected void onCleared() {
+        super.onCleared();
+        if (movieCall != null && !movieCall.isCanceled()) {
+            movieCall.cancel();
+        }
     }
 }
